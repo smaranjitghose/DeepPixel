@@ -18,7 +18,7 @@ Deep Neural networks have already surpassed human level performance in tasks suc
 Neural style transfer is one of the most creative application of convolutional neural networks. By taking a content image and a style image, the neural network can recombine the content and the style image to effectively creating an artistic image!
 These algorithms are extremely flexible and the virtually infinite possible combinations of content and style resulted in very creative and unique results.
 
-### Bird Eye View:
+### Bird Eye View of the current work to start with :
 
 Neural style transfer uses a pretrained convolution neural network. Then to define a loss function which blends two images seamlessly to create visually appealing art, NST defines the following inputs:
 * A content image (c) — the image we want to transfer a style to
@@ -31,14 +31,13 @@ Neural style transfer uses a pretrained convolution neural network. Then to defi
 - Implement different scripts for neural style transfer
 - Implement various image processing tasks like colorization of black and white images,denoization,etc
 - Create an output for the above using your own images rather than those from Unsplash used for model training and testing/intial build
-- Improve the documentation of this repo📑
 - Create a flask backend so that we can have a a drop in spit out feature for NoMags(People who are not into ML yet)
 - Use HTML,CSS, JS to beautify the website for the same(React is a big plus)
+- Improve the documentation of this repo📑
 - Try to make end to end model using TensorFlow.js or ml5.Js
+- Make simple apps for the same using FLutter and TensorFlow Lite
 - Try to apply this for Instagram profile pictures and paintings and provide your friends this as a service
-- Create an api for this
 - Implement more research papers on style transfer and other image enhancement techniques
-- Perform task like Image Denoising,BlacktoColouring etc
 
 ### How to contribute:
 
@@ -89,15 +88,17 @@ git push -u origin <your_branch_name>
 
 
 
-## Skills:
+## Skills Required:
 - Python(Mandatory)
-- Basic Knowledge of Deep Learning (Mandatory)
-- TensorFlow 2.0 ( PyTorch/Keras is also welcomed)
-- Flask
+- Git(Mandatorty)
+- Linux Command Line(Mandatory)
+- Basic Knowledge of Deep Learning and Computer Vision (Mandatory)
+- TensorFlow 2.0/PyTorch/Keras/fast.ai (any one is suggested)
+- OpenCV(Required)
+- Flask (Preferrable)
 - HTML,CSS,JavaScript(Preferrable)
-- Git
 - TensorFlow.js
 - TensorFlowLite
-- OpenCV
+- Dart + Flutter
 
 **And above all the willingness to learn and contribute!**
