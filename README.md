@@ -1,4 +1,4 @@
-# Deep Style 🐱‍💻 📷
+# Deep Pixel 🐱‍💻 📷
 
 This is the [proposed](https://teams.railsgirlssummerofcode.org/projects/353-deep-editing) open source project for Rails Girls Summer of Code.
 
