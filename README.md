@@ -28,8 +28,9 @@ Neural style transfer uses a pretrained convolution neural network. Then to defi
 
 ## Tasks: 📝📋
 
-- Attempt to implement other methods for Style Tranfer 🛠
-- Try to form a gallery using your own images rather than those being taken from Unsplash
+- Implement different scripts for neural style transfer
+- Implement various image processing tasks like colorization of black and white images,denoization,etc
+- Create an output for the above using your own images rather than those from Unsplash used for model training and testing/intial build
 - Improve the documentation of this repo📑
 - Create a flask backend so that we can have a a drop in spit out feature for NoMags(People who are not into ML yet)
 - Use HTML,CSS, JS to beautify the website for the same(React is a big plus)
