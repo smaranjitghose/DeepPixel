@@ -8,7 +8,7 @@
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/DeepPixel?style=for-the-badge)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/DeepPixel?style=for-the-badge)
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![Join the chat at https://gitter.im/opendeeppixel/community](https://badges.gitter.im/opendeeppixel/community.svg)](https://gitter.im/opendeeppixel/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 ### Background: 🔍
