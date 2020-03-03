@@ -1,6 +1,15 @@
 # Deep Pixel 🐱‍💻 📷
 
-This is the [proposed](https://teams.railsgirlssummerofcode.org/projects/353-deep-editing) open source project for Rails Girls Summer of Code.
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![License](https://img.shields.io/github/license/smaranjitghose/DeepPixel?color=blue&style=for-the-badge)](https://github.com/smaranjitghose/DeepPixel/blob/master/LICENSE)
+
+![Forks](https://img.shields.io/github/forks/smaranjitghose/DeepPixel?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/smaranjitghose/DeepPixel?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/smaranjitghose/DeepPixel?style=for-the-badge)
+![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/DeepPixel?style=for-the-badge)
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 
 ### Background: 🔍
 
@@ -28,19 +37,66 @@ Neural style transfer uses a pretrained convolution neural network. Then to defi
 - Try to apply this for Instagram profile pictures and paintings and provide your friends this as a service
 - Create an api for this
 - Implement more research papers on style transfer and other image enhancement techniques
+- Perform task like Image Denoising,BlacktoColouring etc
+
+### How to contribute:
+
+![RGSOC'20](https://img.shields.io/badge/RGSOC-20-red)
+
+
+
+**1.** Fork [this](https://github.com/smaranjitghose/DeepPixel) repository.
+
+**2.** Clone the forked repository.
+```terminal
+git clone https://github.com/<your-github-username>/DeepPixel
+```
+
+**3.** Navigate to the project directory.
+```terminal
+cd DeepPixel
+```
+
+**4.** Create a new branch.
+```terminal
+git checkout -b <your_branch_name>
+```
+
+**5.** Make changes in source code.
+
+**6.** Commit your changes.
+
+```terminal
+  git add .
+  git commit -m "<your_commit_message>"
+```
+
+**7.** Push your local branch to the remote repository.
+```terminal
+git push -u origin <your_branch_name>
+```
+
+**8.** Create a Pull Request!
+
+**Congratulations!** Sit and relax, you've made your contribution to [DeepPixel](https://github.com/smaranjitghose/DeepPixel) project.
+
 
 ## Mentors:👲
 
-- [Smaranjit Ghose](https://github.com/smaranjitghose)
 - [Suhrid Datta](https://github.com/suhriddatta)
+- [Smaranjit Ghose](https://github.com/smaranjitghose)
+
 
 
 ## Skills:
 - Python(Mandatory)
 - Basic Knowledge of Deep Learning (Mandatory)
-- TensorFlow 2.0 ( PyTorch as well as Keras is also welcomed)
+- TensorFlow 2.0 ( PyTorch/Keras is also welcomed)
 - Flask
 - HTML,CSS,JavaScript(Preferrable)
 - Git
+- TensorFlow.js
+- TensorFlowLite
+- OpenCV
 
 **And above all the willingness to learn and contribute!**
