@@ -38,6 +38,7 @@ Neural style transfer uses a pretrained convolution neural network. Then to defi
 - Use TensorFlow.JS to build end to end models for showcase
 - Build a website for this project
 - Extend the work for some of the sripts to make a Flutter app using TensorFlow Lite
+- Improve the documentation (ReadME)
 
 ## Points to keep in mind while contributing:
 
@@ -86,7 +87,8 @@ git push -u origin <your_branch_name>
 
 **8.** Create a Pull Request!
 
-**Congratulations!** Sit and relax, you've made your contribution to [DeepPixel](https://github.com/smaranjitghose/DeepPixel) project.
+**Congratulations!** You have just made your contribution to [DeepPixel](https://github.com/smaranjitghose/DeepPixel) project.
+
 
 
 ## Skills Required: 💪
