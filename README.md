@@ -89,12 +89,7 @@ git push -u origin <your_branch_name>
 **Congratulations!** Sit and relax, you've made your contribution to [DeepPixel](https://github.com/smaranjitghose/DeepPixel) project.
 
 
-## Mentors:👲
-
-- [Smaranjit Ghose](https://github.com/smaranjitghose)
-- [Suhrid Datta](https://github.com/suhriddatta)
-
-## Skills Required:
+## Skills Required: 💪
 - Python(Mandatory)
 - Git(Mandatorty)
 - Linux Command Line(Mandatory)
@@ -103,5 +98,22 @@ git push -u origin <your_branch_name>
 - OpenCV(Required)
 - HTML,CSS,JavaScript(Preferrable)
 
-
 **And above all the willingness to learn and contribute!**
+
+## Resources to get started with: 🖊
+
+- [PyImageSearch](https://www.pyimagesearch.com/)-One of the best places on the Internet for anything on Computer Vision
+- [Fast.ai](https://www.fast.ai/)-Deep Learning course+Forum for any level that you will fall in love with!
+- [MIT:Intro to Deep Learning](http://introtodeeplearning.com/) - shows you more real world applications as you dive into deep learning
+- [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/index.html)
+- [MIT Deep Learning](https://deeplearning.mit.edu/) - From self driving cars to Alpha fold..they help you dig into the latest in the field..Lex Fridman's podcasts are just 🔥🔥
+- [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) - Most popular MOOCs that is used by thousands all over the world to get started with Deep Learning
+
+## Mentors:👲
+
+- [Smaranjit Ghose](https://github.com/smaranjitghose)
+- [Suhrid Datta](https://github.com/suhriddatta)
+
+## License: 
+
+[MIT License](https://github.com/smaranjitghose/DeepPixel/blob/master/LICENSE)
