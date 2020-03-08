@@ -47,6 +47,7 @@ Neural style transfer uses a pretrained convolution neural network. Then to defi
 - For each sub-directory..have a images folder dedicated to the images
 - For each sub-directory..please upate the README.MD files on what you what worked on
 - Don't copy code directly from places like pyimagesearch.com etc..Take them as reference,modify and do it..or atleast give the reference
+- Try to use Google Colab for sharing your notebooks
 
 ### How to contribute:
 
