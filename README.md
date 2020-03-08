@@ -39,6 +39,14 @@ Neural style transfer uses a pretrained convolution neural network. Then to defi
 - Build a website for this project
 - Extend the work for some of the sripts to make a Flutter app using TensorFlow Lite
 
+## Points to keep in mind while contributing:
+
+- Please don't push anything to the root directory.Always use specific subdirectories inside the [deeppixel](https://github.com/smaranjitghose/DeepPixel/tree/master/deeppixel) directory 
+- For each of the tasks(i.e. problems you solve like denoising an image)..Please put in all the files/model weights/haar cascascades you use in the respective sub-directory
+- For each sub-directory..have a images folder dedicated to the images
+- For each sub-directory..please upate the README.MD files on what you what worked on
+- Don't copy code directly from places like pyimagesearch.com etc..Take them as reference,modify and do it..or atleast give the reference
+
 ### How to contribute:
 
 ![RGSOC'20](https://img.shields.io/badge/RGSOC-20-red)
