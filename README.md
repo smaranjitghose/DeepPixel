@@ -15,10 +15,10 @@
 
 Deep Neural networks have already surpassed human level performance in tasks such as object recognition and detection. However, deep networks were lagging far behind in tasks like generating artistic artefacts having high perceptual quality until recent times. Creating better quality art using machine learning techniques is imperative for reaching human-like capabilities, as well as opens up a new spectrum of possibilities. And with the advancement of computer hardware as well as the proliferation of deep learning, deep learning is right now being used to create art. For example, an [AI generated art](https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx) won’t be sold at an auction for a whopping $432,500.
 
+### Bird Eye View of the an example work to start with :
+
 Neural style transfer is one of the most creative application of convolutional neural networks. By taking a content image and a style image, the neural network can recombine the content and the style image to effectively creating an artistic image!
 These algorithms are extremely flexible and the virtually infinite possible combinations of content and style resulted in very creative and unique results.
-
-### Bird Eye View of the current work to start with :
 
 Neural style transfer uses a pretrained convolution neural network. Then to define a loss function which blends two images seamlessly to create visually appealing art, NST defines the following inputs:
 * A content image (c) — the image we want to transfer a style to
@@ -28,16 +28,16 @@ Neural style transfer uses a pretrained convolution neural network. Then to defi
 
 ## Tasks: 📝📋
 
-- Implement different scripts for neural style transfer
-- Implement various image processing tasks like colorization of black and white images,denoization,etc
-- Create an output for the above using your own images rather than those from Unsplash used for model training and testing/intial build
-- Create a flask backend so that we can have a a drop in spit out feature for NoMags(People who are not into ML yet)
-- Use HTML,CSS, JS to beautify the website for the same(React is a big plus)
-- Improve the documentation of this repo📑
-- Try to make end to end model using TensorFlow.js or ml5.Js
-- Make simple apps for the same using FLutter and TensorFlow Lite
-- Try to apply this for Instagram profile pictures and paintings and provide your friends this as a service
-- Implement more research papers on style transfer and other image enhancement techniques
+- Implement different image processing scripts(using opencv)that can used to enhancing pictures,obtaining information and transforming it for desired purposes
+- Use deep learning for the same. Eg: Neural Style Transfer,BlackandWhitetoColor
+- Reimplement State-of-the-Art(SOTA) Research papers for the this
+- **Suggestion**: Use Tranfer Learning
+- For the image processing tasks make custom datasets...use tools like CVAT
+- Repeat the same for the deep learning tasks
+- Convert the work done in Jupyter Notebooks into executable scripts
+- Use TensorFlow.JS to build end to end models for showcase
+- Build a website for this project
+- Extend the work for some of the sripts to make a Flutter app using TensorFlow Lite
 
 ### How to contribute:
 
@@ -83,10 +83,8 @@ git push -u origin <your_branch_name>
 
 ## Mentors:👲
 
-- [Suhrid Datta](https://github.com/suhriddatta)
 - [Smaranjit Ghose](https://github.com/smaranjitghose)
-
-
+- [Suhrid Datta](https://github.com/suhriddatta)
 
 ## Skills Required:
 - Python(Mandatory)
@@ -95,10 +93,7 @@ git push -u origin <your_branch_name>
 - Basic Knowledge of Deep Learning and Computer Vision (Mandatory)
 - TensorFlow 2.0/PyTorch/Keras/fast.ai (any one is suggested)
 - OpenCV(Required)
-- Flask (Preferrable)
 - HTML,CSS,JavaScript(Preferrable)
-- TensorFlow.js
-- TensorFlowLite
-- Dart + Flutter
+
 
 **And above all the willingness to learn and contribute!**
