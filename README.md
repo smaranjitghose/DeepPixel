@@ -95,10 +95,12 @@ git push -u origin <your_branch_name>
 - Python(Mandatory)
 - Git(Mandatorty)
 - Linux Command Line(Mandatory)
-- Basic Knowledge of Deep Learning and Computer Vision (Mandatory)
-- TensorFlow 2.0/PyTorch/Keras/fast.ai (any one is suggested)
+- Elementary Knowledge of Deep Learning or Computer Vision (Mandatory)
+- Ability to use TensorFlow 2.0/PyTorch/Keras/fast.ai (any one is suggested)
 - OpenCV(Required)
-- HTML,CSS,JavaScript(Preferrable)
+- HTML,CSS,JavaScript(can be picked up on the go)
+- TensorFlow.JS
+
 
 **And above all the willingness to learn and contribute!**
 
