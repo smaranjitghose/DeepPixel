@@ -1,5 +1,7 @@
 The aim of this code is colorization of black-and-white images
+
 Input : Black and white image, Expected Output : Colorized image
+
 Process : 
 1. For this task we use Lab color space in which 'L' channel denotes lightness (intensity information),
    'a' is the green-red component and 'b' is the blue-yellow component. 
