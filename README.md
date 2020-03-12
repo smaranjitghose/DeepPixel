@@ -15,15 +15,6 @@
 
 Deep Neural networks have already surpassed human level performance in tasks such as object recognition and detection. However, deep networks were lagging far behind in tasks like generating artistic artefacts having high perceptual quality until recent times. Creating better quality art using machine learning techniques is imperative for reaching human-like capabilities, as well as opens up a new spectrum of possibilities. And with the advancement of computer hardware as well as the proliferation of deep learning, deep learning is right now being used to create art. For example, an [AI generated art](https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx) won’t be sold at an auction for a whopping $432,500.
 
-### Bird Eye View of the an example work to start with :
-
-Neural style transfer is one of the most creative application of convolutional neural networks. By taking a content image and a style image, the neural network can recombine the content and the style image to effectively creating an artistic image!
-These algorithms are extremely flexible and the virtually infinite possible combinations of content and style resulted in very creative and unique results.
-
-Neural style transfer uses a pretrained convolution neural network. Then to define a loss function which blends two images seamlessly to create visually appealing art, NST defines the following inputs:
-* A content image (c) — the image we want to transfer a style to
-* A style image (s) — the image we want to transfer the style from
-* An input (generated) image (g) — the image that contains the final result (the only trainable variable)
 
 
 ## Tasks: 📝📋
@@ -40,14 +31,34 @@ Neural style transfer uses a pretrained convolution neural network. Then to defi
 - Extend the work for some of the sripts to make a Flutter app using TensorFlow Lite
 - Improve the documentation (ReadME)
 
-## Points to keep in mind while contributing:
+## Guidelines to Contribute : 🤚 🏗
 
-- Please don't push anything to the root directory.Always use specific subdirectories inside the [deeppixel](https://github.com/smaranjitghose/DeepPixel/tree/master/deeppixel) directory 
-- For each of the tasks(i.e. problems you solve like denoising an image)..Please put in all the files/model weights/haar cascascades you use in the respective sub-directory
-- For each sub-directory..have a images folder dedicated to the images
-- For each sub-directory..please upate the README.MD files on what you what worked on
-- Don't copy code directly from places like pyimagesearch.com etc..Take them as reference,modify and do it..or atleast give the reference
-- Try to use Google Colab for sharing your notebooks
+- **Don't push** anything to the root directory.Always use specific subdirectories inside the [deeppixel](https://github.com/smaranjitghose/DeepPixel/tree/master/deeppixel) directory 
+
+For each of the tasks:
+
+- Experiment building this using a Jupyter notebook locally or on [Google Colab](https://colab.research.google.com/)
+- Build a script for the task inside the ```respective ``` directory
+- Inside the ```bw_to_c``` directory, create two folders ```input``` and ```output``` to be used for the input and output images
+- Use [argparse](https://docs.python.org/3/library/argparse.html) library so that the input image and output path can be given as arguments in the terminal while running the script
+-  Create a ```requirements.txt``` file and specify the modules used
+- Try your script/notebook with multiple images and store the results in output folder
+- Comment your script/notebook well
+- Create/Update the ReadME.MD file:
+    - Name of the task
+    - A small description
+    - Approach used
+    - Input and Output Images
+- Make sure you have the model weight or any related files like haarcascades to run the script in the same direcorty
+- Give a Pull Request
+- In your PR, please try to give a link to a Colab Notebook(if applicable) as a comment.
+- In your PR, put a reference to the issue it is for
+- once your model/script works, curate your own dataset and get the outputs..(Try 10 images) adn give a second PR about your own Dataset
+- Try out other methods to implement the above
+
+__Please do not use a code from someone else's repo or a blog like PyImageSearch directly..You can definitely refer to others' code. But make sure you have some contributions of your own into it. If you strongly use a code from someone else,please credit them properly in the README file of the respective directory.
+
+
 
 ### How to contribute:
 
@@ -91,7 +102,6 @@ git push -u origin <your_branch_name>
 **Congratulations!** You have just made your contribution to [DeepPixel](https://github.com/smaranjitghose/DeepPixel) project.
 
 
-
 ## Skills Required: 💪
 - Python(Mandatory)
 - Git(Mandatorty)
@@ -119,6 +129,6 @@ git push -u origin <your_branch_name>
 - [Smaranjit Ghose](https://github.com/smaranjitghose)
 - [Suhrid Datta](https://github.com/suhriddatta)
 
-## License: 
+## License: 📜
 
 [MIT License](https://github.com/smaranjitghose/DeepPixel/blob/master/LICENSE)
