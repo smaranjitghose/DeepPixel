@@ -1,13 +1,10 @@
 # Deep Pixel 🐱‍💻 📷
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![License](https://img.shields.io/github/license/smaranjitghose/DeepPixel?color=blue&style=for-the-badge)](https://github.com/smaranjitghose/DeepPixel/blob/master/LICENSE)
-
-![Forks](https://img.shields.io/github/forks/smaranjitghose/DeepPixel?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/smaranjitghose/DeepPixel?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/smaranjitghose/DeepPixel?style=for-the-badge)
-![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/DeepPixel?style=for-the-badge)
-
+![Issues](https://img.shields.io/github/issues/smaranjitghose/DeepPixel)
+![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/DeepPixel)
+![Forks](https://img.shields.io/github/forks/smaranjitghose/DeepPixel)
+![Stars](https://img.shields.io/github/stars/smaranjitghose/DeepPixel)
+[![License](https://img.shields.io/github/license/smaranjitghose/DeepPixel)](https://github.com/smaranjitghose/DeepPixel/blob/master/LICENSE)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![Join the chat at https://gitter.im/opendeeppixel/community](https://badges.gitter.im/opendeeppixel/community.svg)](https://gitter.im/opendeeppixel/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
