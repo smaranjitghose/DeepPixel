@@ -5,7 +5,7 @@
 ![Forks](https://img.shields.io/github/forks/smaranjitghose/DeepPixel)
 ![Stars](https://img.shields.io/github/stars/smaranjitghose/DeepPixel)
 [![License](https://img.shields.io/github/license/smaranjitghose/DeepPixel)](https://github.com/smaranjitghose/DeepPixel/blob/master/LICENSE)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![Join the chat at https://gitter.im/opendeeppixel/community](https://badges.gitter.im/opendeeppixel/community.svg)](https://gitter.im/opendeeppixel/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/opendeeppixel/community](https://badges.gitter.im/opendeeppixel/community.svg)](https://gitter.im/opendeeppixel/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 ### Background: 🔍
