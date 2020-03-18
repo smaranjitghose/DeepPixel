@@ -1,4 +1,4 @@
-# Colorization of black-and-white images
+﻿# Colorization of black-and-white images
 
 The aim of this task is to generate a script which produces **colorized images**, when **black and white images** are provided as input. 
 
