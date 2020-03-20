@@ -12,21 +12,22 @@
 
 Deep Neural networks have already surpassed human level performance in tasks such as object recognition and detection. However, deep networks were lagging far behind in tasks like generating artistic artefacts having high perceptual quality until recent times. Creating better quality art using machine learning techniques is imperative for reaching human-like capabilities, as well as opens up a new spectrum of possibilities. And with the advancement of computer hardware as well as the proliferation of deep learning, deep learning is right now being used to create art. For example, an [AI generated art](https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx) won’t be sold at an auction for a whopping $432,500.
 
+### Our Vision:  🔍📃
+Create a Python package for plug in and play😎  different image processing and deep learning tasks without having to know about its working and the scary math that follows 😱.
 
+In the process of doing so, we want the participants to:
+- Learn various concepts in Deep Learning and Computer Vision🐱‍🏍 
+- Implement them in form of scripts 👩‍💻
+- Reimplement using more optimized methods and do comparitive analysis 🕵️‍♀️
+- Create your own datasets, test your scripts on them and make it available for the community to work further 🔨
+- Build small APIs for each task (wherever applicable)
+- Build web apps for certain tasks using TensorFlow.JS or Flask 
+- Build Flutter apps with TensorFLow lite for certain tasks 📲
+- Increment your personal portfolio with certain tasks you do here as standalone projects 👩‍💼
+- Work for applying the various tasks undertaken into several real world scenarios 
+- Write blog posts about your contributions (Medium: @techquilla) to share with the world ✏ 
+- Learn to read and implement research papers 🔬
 
-## Tasks: 📝📋
-
-- Implement different image processing scripts(using opencv)that can used to enhancing pictures,obtaining information and transforming it for desired purposes
-- Use deep learning for the same. Eg: Neural Style Transfer,BlackandWhitetoColor
-- Reimplement State-of-the-Art(SOTA) Research papers for the this
-- **Suggestion**: Use Tranfer Learning
-- For the image processing tasks make custom datasets...use tools like CVAT
-- Repeat the same for the deep learning tasks
-- Convert the work done in Jupyter Notebooks into executable scripts
-- Use TensorFlow.JS to build end to end models for showcase
-- Build a website for this project
-- Extend the work for some of the sripts to make a Flutter app using TensorFlow Lite
-- Improve the documentation (ReadME)
 
 ## Guidelines to Contribute : 🤚 🏗
 
