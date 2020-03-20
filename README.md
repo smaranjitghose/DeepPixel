@@ -126,6 +126,11 @@ git push -u origin <your_branch_name>
 - [Smaranjit Ghose](https://github.com/smaranjitghose)
 - [Suhrid Datta](https://github.com/suhriddatta)
 
+## Community:
+    We would love to hear from you! We communicate on the following platforms:
+[![Join the chat at https://gitter.im/opendeeppixel/community](https://badges.gitter.im/opendeeppixel/community.svg)](https://gitter.im/opendeeppixel/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+
 ## License: 📜
 
 [MIT License](https://github.com/smaranjitghose/DeepPixel/blob/master/LICENSE)
