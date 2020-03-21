@@ -1,18 +1,10 @@
 # Detection of Faces in image
 
-The aim is to create a script to detect faces in the input image as well as count the number of faces detected and saving output images with faces detected 
+A script to detect faces in the input image as well as count the number of faces detected and saving output images with faces detected 
 
 # Approach
 
-OpenCV already contains many pre-trained classifiers for face, eyes, smile etc. We will be using Face classifier for face detection . we need to load the required XML classifiers for detection.
-
-**PROCESS :**
-1) Import all the required libraries
-2) Convert the input image into gray scale as haarcascade classifier accepts grayscale images
-3) import haarcascade classifier
-4) Now we find the faces in the image. If faces are found, it returns the positions of detected faces as Rect(x,y,w,h). 
-5) Once we get these locations,  create a rectangle.
-6) Save the output image
+OpenCV already contains many pre-trained classifiers for face, eyes, smile etc. We will be using Face classifier for face detection. We need to load the required XML classifiers for detection.
 
 # Steps:
 
