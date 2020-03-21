@@ -17,16 +17,3 @@ To detect faces in the input images and saving output images
 5) Once we get these locations,  create a rectangle or anyshape for the face
 6) Save the output image
 
-**FaceDetection.py**
-You can run the FaceDetection.py file with command:
-
-```
-python FaceDetection.py -i [IMAGE_PATH] -o [OUTPUT_FOLDER]
-
-```
-> for example
-```
-python FaceDetection.py -i Sample_images/run2.jpeg -o Sample_output/ 
-```
-
-This will save the image with faces marked in the output folder path provided.
