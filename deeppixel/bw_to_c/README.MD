@@ -11,6 +11,18 @@ The approach we will follow is :
 4. We then concatenate the L,a,b  components to generate Lab image. 
 5. This Lab image is then converted to rgb image for better visualization
 
+## Folder Structure
+    .
+    ├── input                                       # Store the input images here
+    ├── model                                       # This contains the models
+         |_colorization_deploy_v2.prototxt
+         |_colorization_release_v2.caffemodel
+         |_pts_in_hull.npy
+    ├── colorization.py                             # Python script
+    ├── image_colorization.ipynb                    # Jupyter notebook
+    ├── README.md                                   # Read me file  
+    └── requirements.txt                            # Minimum requirements
+
 ## Steps :
 
 1. Clone this repository:
