@@ -1,16 +1,16 @@
-## Real-Time Face Detection
+# Real-Time Face Detection
 
 A script to detect faces in video via a webcam in real time.
 
-# Approach
+## Approach
 
 OpenCV already contains many pre-trained classifiers for face, eyes, smile etc. We will be using Face classifier for face detection. 
 
-# Pre-requisites
+## Pre-requisites
 
 A working webcam
 
-# Steps
+## Steps
 
 1) Clone this repository:
 ```
