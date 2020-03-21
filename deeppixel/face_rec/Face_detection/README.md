@@ -1,8 +1,8 @@
-# Detection of Faces in image
+## Detection of Faces in image
 
 A script to detect faces in the input image as well as count the number of faces detected and saving output images with faces detected 
 
-## Approach
+### Approach
 
 OpenCV already contains many pre-trained classifiers for face, eyes, smile etc. We will be using Face classifier for face detection. We need to load the required XML classifiers for detection.
 
