@@ -2,8 +2,6 @@
 
 The aim of this task is to generate a script which produces **colorized images**, when **black and white images** are provided as input. 
 
-The script is written in the colorization.py file. For in-depth understanding of the code you may refer to the image_colorization.ipynb file.
-
 ## Approach :
 The approach we will follow is :
 1. For this task we use Lab color space in which 'L' channel denotes lightness (intensity information),
@@ -13,6 +11,18 @@ The approach we will follow is :
 4. We then concatenate the L,a,b  components to generate Lab image. 
 5. This Lab image is then converted to rgb image for better visualization
 
+## Folder Structure
+    . 
+    ├── input                                       # Store the input images here
+    ├── model                                       # This contains the models
+         |_colorization_deploy_v2.prototxt
+         |_colorization_release_v2.caffemodel
+         |_pts_in_hull.npy
+    ├── colorization.py                             # Python script
+    ├── image_colorization.ipynb                    # Jupyter notebook
+    ├── README.md                                   # Read me file  
+    └── requirements.txt                            # Minimum requirements
+    
 ## Steps :
 
 1. Clone this repository:
