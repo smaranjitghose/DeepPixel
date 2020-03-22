@@ -2,10 +2,13 @@
  
 Image colorization is the process of taking an input grayscale (black and white) image and then producing an output colorized image  
  
+ **AIM**
+ The aim of this task is to generate a script which produces colorized images, when black and white images are provided as input.
+ 
 ![colorization-example](https://user-images.githubusercontent.com/43414928/77244083-67481600-6c37-11ea-9903-b68c059bbbec.png)
  
  
-## How does it work? 
+### Approach
 The approach we will follow is :
 1. Convert the RGB color image into the Lab color space. Similar to the RGB color space, the Lab color space has three channels:-  
    * 'L' channel denotes lightness (intensity information),
@@ -18,14 +21,14 @@ The approach we will follow is :
 ![function_lab_color_grids](https://user-images.githubusercontent.com/43414928/77244456-e723af80-6c3a-11ea-8a09-ea4d35f20f6e.png)
  
  
-## Required libraries
-Tensorflow 
-NumPy
-matplotlib
-OpenCV
-argparse
+### Required libraries
+1. Tensorflow 
+2. NumPy
+3. matplotlib
+4. OpenCV
+5. argparse
  
-## Steps 
+### Steps 
  
 1. Clone this repository:
 ```
@@ -56,7 +59,7 @@ python colorization.py input/ -f jpg -o output/
  
  
  
-## Reference 
+### Reference 
 
 1. [Colorful Image Colorization - Richard Zhang ](https://richzhang.github.io/colorization/resources/colorful_eccv2016.pdf)
 2. [Black and white image colorization ](https://www.pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning)

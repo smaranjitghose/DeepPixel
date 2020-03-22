@@ -4,6 +4,9 @@
 
 Neural style transfer is a technique which is used to blend together two images - a content image and a style reference image (such as an artwork by a famous painter) seamlessly into one
 
+**AIM**
+The aim of this task is to transfer the style of the reference image to the content image 
+
 ![styleTransfer](https://user-images.githubusercontent.com/43414928/77195656-00780f00-6b08-11ea-87a3-434759253954.jpeg)
 
 ### Approach
