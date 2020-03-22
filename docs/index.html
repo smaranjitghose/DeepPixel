@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Documentation Page</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+  <style>
+    html, body {
+  font-family: 'Helvetica', Helvetica;
+  font-size: 18px;
+  background-color: #fff;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+#navbar {
+  background-color: #f4f4f4;
+  height: 96%;
+  top: 10px;
+  position: fixed;
+  width: 22%;
+}
+
+.nav header {
+  display: block;
+  text-align:center;
+  margin: 0 10px;
+  padding: 5px;
+  border-bottom: 1px solid #30336b;
+  font-size: 120%;
+  font-weight: thin;
+  color: #95a5a6;
+}
+
+.nav-link:link {
+  color: #30336b;
+  margin-top: 10%;
+  padding-left: 10%;
+  width: 90%;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: #fff;
+  background-color: #2c3e50;
+  transition: 0.3s;
+}
+
+.nav-link:visited {
+  color: #fd79a8;
+}
+
+.head-box {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+header {
+  margin-top: 20px;
+}
+
+h2 {
+  font-weight: light;
+  color: #130f40;
+}
+
+h3 {
+  margin-top: 20px;
+  padding-left: 15px;
+  color: #30336b;
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 90%;
+  line-height: 1.5;
+  padding-left: 30px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+section article {
+  padding-right: 20px;
+}
+
+article li {
+  font-size: 80%;
+  margin-left: 20px;
+  font-size: 0.5 em; 
+}
+
+@media only screen and (max-width: 620px) {
+  #navbar {
+    display: none;
+  }
+}
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+      
+      <div class="col-sm-3">
+        <nav id="navbar">
+          <ul class="nav flex-column">
+            <header> Documentation</header>
+            <li class="nav-item">
+              <a class="nav-link introduction" href="#Introduction">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link layout" href="#Requirements">Project Requirements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link content" href="#Layout">How to get started </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link components" href="#Content">Existing Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link reference" href="#Reference">Reference</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-sm-8" >
+        <main id="main-doc">
+          <div class="head-box">
+            <h1>Deep Pixel</h1>
+
+          </div>
+
+          <section class="main-section" id="Introduction">
+
+            <header>
+              <h2>Introduction</h2>
+            </header>
+            <article>
+
+              <p>Deep Neural networks have already surpassed human level performance in tasks such as object recognition and detection. However, deep networks were lagging far behind in tasks like generating artistic artefacts having high perceptual quality until recent times. Creating better quality art using machine learning techniques is imperative for reaching human-like capabilities, as well as opens up a new spectrum of possibilities. And with the advancement of computer hardware as well as the proliferation of deep learning, deep learning is right now being used to create art. For example, an AI generated art won’t be sold at an auction for a whopping $432,500.</p>
+              <img src="https://img.freepik.com/free-vector/ai-isometric-color-vector-illustration_151150-46.jpg?size=626&ext=jpg" alt=""> <br>
+              Deep pixels implement different image processing scripts(using opencv) that can used to enhancing pictures,obtaining information and transforming it for desired purposes. It uses deep learning like Neural Style Transfer,Black and White to Color image transformation for the same. <br>
+              <div class="text-center">
+                <br> <a href="https://github.com/smaranjitghose/DeepPixel" class="text-center"><button type="button" class="btn btn-secondary text-center">Go to github</button></a> </div><br>
+            </article>
+          </section>
+
+          <section class="main-section" id="Requirements">
+
+            <header>
+              <h2>Project's Requirements</h2>
+            </header>
+            <article>
+
+              <p>The skills required are </p>
+              <ul>
+                <li>Python (Mandatory)</li>
+                <li>Git and Linux Command Line (Mandatorty)</li>
+                <li>Elementary Knowledge of Deep Learning or Computer Vision (Mandatory)</li>
+                <li>Ability to use TensorFlow 2.0/PyTorch/Keras/fast.ai (any one is suggested)</li>
+                <li>OpenCV(Required)</li>
+                <li>HTML,CSS,JavaScript(can be picked up on the go)</li>
+
+              </ul>
+
+            </article>
+          </section>
+
+          <section class="main-section" id="Layout">
+            <header>
+              <h2>How to get started ? </h2>
+            </header>
+
+            <article>
+
+              <ol>
+                <li>Fork <a href="https://github.com/smaranjitghose/DeepPixel">this</a> repository.</li>
+                <li>
+                  Clone the forked repository. <br> <code>git clone https://github.com/your-github-username/DeepPixel</code>
+                </li>
+                <li> Navigate to the project directory. <br> <code>cd DeepPixel</code></li>
+                <li>Create a new branch. <br> <code>git checkout -b your_branch_name </code></li>
+                <li>Make changes in source code.</li>
+                <li>Commit your changes.<br> <code>git add . <br>
+                    git commit -m "<your_commit_message>"
+                  </code>
+                <li>Push your local branch to the remote repository.<br> <code>git push -u origin <your_branch_name>
+                  </code>
+                <li>Create a Pull Request!</li>
+                <br> <b> Congratulations! </b>You have just made your contribution to DeepPixel project.
+              </ol>
+
+            </article>
+          </section>
+
+          <section class="main-section" id="Content">
+            <header>
+              <h2>Existing Projects </h2>
+            </header>
+            <article>
+              <h3>1. Colorization of black-and-white images</h3>
+              <p>Image colorization is the process of taking an input grayscale (black and white) image and then producing an output colorized image <br>
+
+                <b>AIM :- </b> The aim of this task is to generate a script which produces colorized images, when black and white images are provided as input.</p>
+              <h3>2. Style Transfer with Deep Neural Networks</h3>
+              <p>Neural style transfer is a technique which is used to blend together two images - a content image and a style reference image (such as an artwork by a famous painter) seamlessly into one
+                <br>
+                <b>AIM :- </b> The aim of this task is to transfer the style of the reference image to the content image</p>
+              <h3>3. Face detection</h3>
+              <p>Face detection using Haar cascades is a machine learning based approach where a cascade function is trained with a set of input data.
+
+                <br><b>AIM :- </b>
+
+                Take an image as input and detect the faces in it. A rectangle is drawn over the detected faces and they are saved as output</p>
+              <h3>4.Denoising Images</h3>
+              <p>Images often get corrupted because of various factors that can occur during acquisition and transmission processes. Image de-noising is the process of removing noise from an image, while at the same time preserving details and structures. <br>
+                <b>Aim :- </b>The aim of this task is to generate a script which produces denoised images when a noisy image is provided as input.</p>
+
+            </article>
+          </section>
+
+          <section class="main-section" id="Reference">
+            <header>
+              <h2>Reference</h2>
+            </header>
+            <article>
+              1. <a href="https://www.pyimagesearch.com/">PyImageSearch-One</a> of the best places on the Internet for anything on Computer Vision
+              <br>2. <a href="https://www.fast.ai/">Fast.ai-</a>Deep Learning course+Forum for any level that you will fall in love with! <br>
+              3. <a href="http://introtodeeplearning.com/">MIT:Intro to Deep Learning</a> shows you more real world applications as you dive into deep learning
+              <br>
+              4. <a href="http://cs231n.stanford.edu/index.html">CS231n: Convolutional Neural Networks for Visual Recognition</a><br>
+              5. <a href="https://deeplearning.mit.edu/">MIT Deep Learning</a> - From self driving cars to Alpha fold., they help you dig into the latest in the field. <br>
+              6.<a href="https://www.coursera.org/specializations/deep-learning"> Deep Learning Specialization</a> - Most popular MOOCs that is used by thousands all over the world to get started with Deep Learning
+
+            </article>
+          </section>
+        </main>
+
+        <hr>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
