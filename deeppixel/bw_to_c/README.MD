@@ -5,7 +5,7 @@ Image colorization is the process of taking an input grayscale (black and white)
 ![colorization-example](https://user-images.githubusercontent.com/43414928/77244083-67481600-6c37-11ea-9903-b68c059bbbec.png)
  
  
-## How does it work? :
+## How does it work? 
 The approach we will follow is :
 1. Convert the RGB color image into the Lab color space. Similar to the RGB color space, the Lab color space has three channels:-  
    * 'L' channel denotes lightness (intensity information),
@@ -25,7 +25,7 @@ matplotlib
 OpenCV
 argparse
  
-## Steps :
+## Steps 
  
 1. Clone this repository:
 ```
