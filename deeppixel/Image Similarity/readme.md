@@ -12,11 +12,11 @@ The approach we will follow is :
 1. First we load the two images that are saved in our directory.
 2. We convert these images into gray scale
 3. Next we compute the Structural Similarity Index (SSIM) between the two images.
-4. If the SSIM = 1, then the two images are identical. Else, we find the differnce score between the images 
+4. If the SSIM = 1, then the two images are identical. Else, we find the difference score between the 2 images 
 
 
 
-## Folder Structure   
+## Steps
 
 1. Clone this repository:
 ```
@@ -36,7 +36,8 @@ python ImageSimilarity.py --first [IMAGE1_PATH]  --second [IMAGE2_PATH]
 python ImageSimilarity.py --first images/original_02.png --second images/modified_02.png
 
 ```
- 
+ ![image](https://user-images.githubusercontent.com/43414928/77290112-7398a580-6d01-11ea-8873-ba2307427c24.png)
+
  
 6. After running this command, you would get the similarity score between the two images
  
@@ -49,5 +50,5 @@ python ImageSimilarity.py --first images/original_02.png --second images/modifie
 ### Reference 
 
 1. [Image Classification using SSIM](https://towardsdatascience.com/image-classification-using-ssim-34e549ec6e12)
-2. [calculate the Structural Similarity Index (SSIM) between two images with Python ](https://ourcodeworld.com/articles/read/991/how-to-calculate-the-structural-similarity-index-ssim-between-two-images-with-python)
+2. [Calculate the Structural Similarity Index (SSIM) between two images with Python ](https://ourcodeworld.com/articles/read/991/how-to-calculate-the-structural-similarity-index-ssim-between-two-images-with-python)
 
