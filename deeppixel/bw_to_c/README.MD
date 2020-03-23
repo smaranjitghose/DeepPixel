@@ -18,18 +18,21 @@ The approach we will follow is :
 3. We feed this 'L' component into our trained model, the model then predicts the 'a' and 'b' components. 
 4. We then concatenate the L,a,b  components to generate Lab image. 
 5. This Lab image is then converted to rgb image for better visualization
-![function_lab_color_grids](https://user-images.githubusercontent.com/43414928/77244456-e723af80-6c3a-11ea-8a09-ea4d35f20f6e.png)
- 
- 
-### Required libraries
-1. Tensorflow 
-2. NumPy
-3. matplotlib
-4. OpenCV
-5. argparse
- 
-### Steps 
- 
+
+
+## Folder Structure
+    . 
+    ├── input                                       # Store the input images here
+    ├── model                                       # This contains the models
+         |_colorization_deploy_v2.prototxt
+         |_colorization_release_v2.caffemodel
+         |_pts_in_hull.npy
+    ├── colorization.py                             # Python script
+    ├── image_colorization.ipynb                    # Jupyter notebook
+    ├── README.md                                   # Read me file  
+    └── requirements.txt                            # Minimum requirements
+   
+
 1. Clone this repository:
 ```
 git clone https://github.com/smaranjitghose/DeepPixel
@@ -47,7 +50,7 @@ pip install -r requirements.txt
 4. Run **colorization.py** file with command: 
  
 ```
-python colorization.py [INPUT_PATH] -f [FORMAT] -o [OUTPUT_PATH]
+python colorization.py [INPUT_PATH] -f [INPUT_FORMAT] -o [OUTPUT_PATH]
 ```
  > For example
 ```

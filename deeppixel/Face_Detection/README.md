@@ -24,6 +24,29 @@ Take an image as input and detect the faces in it. A rectangle is drawn over the
 4. matplotlib
 
 
+**PROCESS :**
+1) Import all the required libraries
+2) Convert the input image into gray scale as haarcascade classifier accepts grayscale images
+3) import haarcascade classifier
+4) Now we find the faces in the image. If faces are found, it returns the positions of detected faces as Rect(x,y,w,h). 
+5) Once we get these locations,  create a rectangle or anyshape for the face
+6) Save the output image
+
+**FaceDetection.py**
+You can run the FaceDetection.py file with command:
+
+```
+python FaceDetection.py -i [IMAGE_PATH] -o [OUTPUT_FOLDER]
+
+```
+> for example
+```
+python FaceDetection.py -i Sample_images/run2.jpeg -o Sample_output/ 
+```
+
+This will save the image with faces marked in the output folder path provided.
+
 ## Reference
 1. [Haar Cascade Object Detection Face & Eye OpenCV Python Tutorial ](https://pythonprogramming.net/haar-cascade-face-eye-detection-python-opencv-tutorial/)
 2. [Face Detection using Haar Cascades](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html)
+
