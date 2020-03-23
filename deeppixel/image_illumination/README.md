@@ -5,8 +5,8 @@ The aim of this task is to provide image illumination. Such image enhancement ca
 alpha and beta values as input and then applying gamma correction methology. In our code, we provide adaptive 
 image illumination by automatic generation of alpha and beta values and then applying gamma correction. 
 
-![example](https://github.com/purva98/DeepPixel/blob/master/deeppixel/image_illumination/input/4.jpg=295x369)
-![output](https://github.com/purva98/DeepPixel/blob/master/deeppixel/image_illumination/output/4.jpg=295x369)
+<img src="https://github.com/purva98/DeepPixel/blob/master/deeppixel/image_illumination/input/4.jpg" alt="Your image title" width="295" height="369"/> <img src="https://github.com/purva98/DeepPixel/blob/master/deeppixel/image_illumination/output/4.jpg" alt="Your image title" width="295" height="369"/>
+
 
 
 ## Approach :
