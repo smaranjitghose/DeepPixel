@@ -33,3 +33,7 @@ python FaceDetection.py -i Sample_images/run2.jpeg -o Sample_output/
 ```
 
 This will save the image with faces marked in the output folder path provided.
+
+### References
+
+[Face Recognition with Python] (https://realpython.com/face-recognition-with-python/)
