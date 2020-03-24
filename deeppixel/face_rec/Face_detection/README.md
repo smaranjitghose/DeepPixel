@@ -1,6 +1,6 @@
 ## Detection of Faces in image
 
-A script to detect faces in the input image as well as count the number of faces detected and saving output images with faces detected 
+A script to detect faces in the input image as well as count the number of faces detected and saving output image with faces detected 
 
 ### Approach
 
@@ -33,3 +33,7 @@ python FaceDetection.py -i Sample_images/run2.jpeg -o Sample_output/
 ```
 
 This will save the image with faces marked in the output folder path provided.
+
+### References
+
+[Face Recognition with Python](https://realpython.com/face-recognition-with-python/)
