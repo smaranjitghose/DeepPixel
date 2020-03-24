@@ -4,7 +4,7 @@ A script to detect objects in the input image given and saves marked and labelle
 
 ### Approach
 
-Uses cvlib which is open source Computer Vision library for Python. Underneath it uses YOLOv3 model trained on COCO dataset capable of detecting 80 common objects in context.
+Uses cvlib which is open source Computer Vision library for Python. Underneath it uses YOLOv3 model trained on COCO dataset capable of detecting [80 common objects](https://github.com/arunponnusamy/object-detection-opencv/blob/master/yolov3.txt) in context.
 
 ### Steps
 
@@ -36,4 +36,4 @@ This will save the image with objects marked and labelled in the output folder p
 
 ### References
 
-[cvlib] (https://www.cvlib.net/)
+[cvlib](https://www.cvlib.net/)
