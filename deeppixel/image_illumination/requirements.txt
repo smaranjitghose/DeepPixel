@@ -6,3 +6,6 @@ matplotlib==3.1.0
 
 numpy==1.16.4
 
+argparse==1.1
+
+Pillow==2.2.2
