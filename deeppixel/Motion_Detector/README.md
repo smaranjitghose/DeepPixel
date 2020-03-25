@@ -1,10 +1,10 @@
 # WebCam Motion Detector
 
-###Aim
+### Aim
   
 To create a Webcame Motion Detector that allows you to detect motion and also store the time interval of the motion.
 
-###Approach
+### Approach
 
 Videos can be treated as stack of pictures called frames. 
 
@@ -25,5 +25,12 @@ So it would be easy to calculate the intensity difference in grayscale.
 
 The Time_of_movements file will be stored in the folder where your code file is stored. This file will be in csv extension. In this file the start time of motion and the end time of motion will be recorded.
 
-###References
+### Requirements
+
+Python3
+OpenCV
+Pandas
+
+### References
+
 https://www.geeksforgeeks.org/webcam-motion-detector-python/
