@@ -34,3 +34,9 @@ python FaceDetectionRealTime.py
 
 This start your webcam and detect faces will have boundary boxes.
 You can exit by pressing 'Esc' or 'Q' or 'q'. 
+
+### Refrences
+
+1. [Face Detection in Python Using a Webcam](https://realpython.com/face-detection-in-python-using-a-webcam/)
+
+
