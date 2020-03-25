@@ -21,15 +21,15 @@ So it would be easy to calculate the intensity difference in grayscale.
 
 3. Threshold Frame : If the intensity difference for a particular pixel is more than 30 then that pixel will be white and if the difference is less than 30 that pixel will be black
 
-4.Color Frame : In this frame you can see the color images in color frame along with green contour around the moving objects
+4. Color Frame : In this frame you can see the color images in color frame along with green contour around the moving objects
 
 The Time_of_movements file will be stored in the folder where your code file is stored. This file will be in csv extension. In this file the start time of motion and the end time of motion will be recorded.
 
 ### Requirements
 
-Python3
-OpenCV
-Pandas
+1.Python3
+2.OpenCV
+3.Pandas
 
 ### References
 
