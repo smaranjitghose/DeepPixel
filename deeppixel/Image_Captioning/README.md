@@ -8,7 +8,7 @@ Automated image captioning using Keras and Flickr8k Dataset
    Extracting captions and storing into dictionary format.
 
 2. Preparing Sequences for training :
-   Create sequences for captions adding <start> at beginning and <end> at last.
+   Create sequences for captions adding start tag at beginning and end tag at last.
 
 3. Processing captions :
    Create a unique list of words and convert each word into a fixed sized vector.Zero padding is done so that each sequence of captions is of equal size
