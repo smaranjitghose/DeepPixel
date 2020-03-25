@@ -32,7 +32,7 @@ Automated image captioning using Keras and Flickr8k Dataset
  
  ### Kaggle Link
  
- https://www.kaggle.com/gayathri9082/automated-image-captioning-flickr8/edit
+https://www.kaggle.com/gayathri9082/automated-image-captioning-flickr8/edit
  
  
     
