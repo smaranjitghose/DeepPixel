@@ -2,7 +2,7 @@
 from skimage.measure import compare_ssim
 import argparse
 import cv2
-import imutils 
+import imutils
 
 # Step2: Construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
@@ -23,9 +23,25 @@ gray2 = cv2.cvtColor(image2, cv2.COLOR_BGR2GRAY)
 diff = (diff * 255).astype("uint8")
 print("the score is SSIM: {}".format(score))
 
+
+# Step6: Find the contours and draw rectangles around it
+thresh = cv2.threshold(diff, 0, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]
+cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+cnts = imutils.grab_contours(cnts)
+for c in cnts:
+	(x, y, w, h) = cv2.boundingRect(c)
+	cv2.rectangle(image1, (x, y), (x + w, y + h), (0, 0, 255), 2)
+	cv2.rectangle(image2, (x, y), (x + w, y + h), (0, 0, 255), 2)
+
+
+#Step6 : Display the result
 if score == 1:
     print("The images are identical")
 elif 1 > score > 0.95:
     print("The images are very similar")
 else:
     print("The images are not the same. The difference between the 2 images is -  ", 1 - score)
+
+cv2.imshow("Original", image1)
+cv2.imshow("Modified", image2)
+cv2.waitKey(0)
