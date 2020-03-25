@@ -24,6 +24,14 @@ Automated image captioning using Keras and Flickr8k Dataset
 
 7. Prediction :
    Both the feature extractor and sequence processor output are merged together and processed by a dense layer to make a final prediction.
+ 
+ ### Output
+ 
+ ![Output 1](https://github.com/gayathri-venu/DeepPixel/blob/master/deeppixel/Image_Captioning/output/1.png)
+ 
+ ![Output 2](https://github.com/gayathri-venu/DeepPixel/blob/master/deeppixel/Image_Captioning/output/2.png)
+ 
+ ![Output 3](https://github.com/gayathri-venu/DeepPixel/blob/master/deeppixel/Image_Captioning/output/3.png)
   
  ### References
 
