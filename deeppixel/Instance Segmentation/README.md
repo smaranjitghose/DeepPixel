@@ -12,7 +12,7 @@ Instance Segmentaion have two process involved :
  ### Input Image: 
  
  ![image](
-https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Instance%20Segmentation/Input%20images/3651581
+https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Instance%20Segmentation/Input%20images/3651581213_f81963d1dd_z.jpg?raw=true
 )
 
 ![iamge](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Instance%20Segmentation/Input%20images/4410436637_7b0ca36ee7_z.jpg?raw=true
@@ -24,3 +24,30 @@ https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Instance%20Segment
 
  ![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Instance%20Segmentation/Output%20Images/15.png?raw=true
 )
+
+
+## Approach
+Overview on how to install
+* Step 1: create a conda virtual environment with python 3.6
+* Step 2: install the dependencies
+* Step 3: Clone the Mask_RCNN repo
+* Step 4: install pycocotools
+* Step 5: download the pre-trained weights
+* Step 6: Test it
+
+Took reference from:
+https://github.com/matterport/Mask_RCNN
+
+watch a video on it https://www.youtube.com/watch?v=g7z4mkfRjI4
+
+https://www.youtube.com/watch?v=5ZStcy7NWqs
+
+## Requirements:
+* numpy
+* scipy
+* cython
+* h5py
+* Pillow
+* scikit-image, 
+* tensorflow-gpu==1.5
+* keras
