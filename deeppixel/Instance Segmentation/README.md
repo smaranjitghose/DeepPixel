@@ -51,3 +51,6 @@ https://www.youtube.com/watch?v=5ZStcy7NWqs
 * scikit-image, 
 * tensorflow-gpu==1.5
 * keras
+
+### [Colab Link](https://colab.research.google.com/drive/186YyuvwprCAIBm0wPh_YLfqc2PKopGjg?authuser=1#scrollTo=S8MMMQBtWup4) 
+ 
