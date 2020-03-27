@@ -7,14 +7,23 @@ Audio data is gaining a lot of importance in machine learning world. Procsessing
 We are using GTZAN dataset. It can be downloaded from http://marsyas.info/downloads/datasets.html. This dataset is contains 10 genres. With 100 songs per genre, we have a total of 1000 songs. The genres present in this dataset are :
 
 1.blues
+
 2.classical
+
 3.country
+
 4.disco
+
 5.hiphop
+
 6.jazz
+
 7.metal
+
 8.pop
+
 9.reggae
+
 10.rock
 
 
