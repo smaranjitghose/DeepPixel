@@ -17,6 +17,8 @@ To detect motion in videos captured using webcam and enclose objects in motion i
 
 ## Output
 
+![Output 1](https://github.com/gayathri-venu/DeepPixel/blob/master/deeppixel/Motion_detection/output.JPG)
+ 
 
 
 ## Reference
