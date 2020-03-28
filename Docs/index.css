@@ -1,0 +1,182 @@
+*,
+*::after,
+*::before {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+}
+
+.navbar {
+	background-color: #673ab7;
+	position: fixed;
+	width: 400px;
+	height: 100vh;
+	transform: translateX(-400px);
+	transition: all ease-in-out 250ms;
+}
+
+.navbar-show {
+	transform: translateX(0px);
+}
+
+.nav-container {
+	background-color: slateblue;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	position: relative;
+	padding: 80px 0px;
+}
+
+.nav-ham-container {
+	position: absolute;
+	background-color: slateblue;
+	width: 80px;
+	height: 80px;
+	right: -80px;
+	top: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0px 8px 8px 0px;
+	transition: all ease-in-out 250ms;
+}
+
+.hamburger {
+	width: 60px;
+	height: 4px;
+	background-color: white;
+	margin: 6px 0px;
+	transition: all ease-out 250ms;
+}
+
+h2 {
+	letter-spacing: 1px;
+	font-size: 32px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	margin: 12px 0px 20px;
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 24px;
+	margin: 20px 0px 4px;
+	font-family: "Raleway", sans-serif;
+}
+
+p,
+li {
+	font-family: "Open Sans", sans-serif;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+li {
+	line-height: 1.75em;
+}
+
+img {
+	margin: 0px auto;
+}
+
+.congo {
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+
+.nav-link-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: white;
+	margin: 12px 0px;
+	font-size: 24px;
+	font-family: "Raleway", sans-serif;
+}
+
+.main-content {
+	padding: 20px 40px;
+	flex: 4;
+	display: flex;
+	flex-direction: column;
+	box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main-content a {
+	color: white;
+	text-decoration: none;
+	padding: 0.05em 0.3em;
+	background-color: slateblue;
+	border-radius: 8px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.main-content a:hover {
+	background-color: #9575cd;
+}
+
+.head-box {
+	letter-spacing: 4px;
+	font-size: 32px;
+	text-align: center;
+	background-color: slateblue;
+	padding: 20px 0px;
+	color: white;
+	margin: 20px 12% 40px;
+	border-radius: 8px;
+	font-family: "Sen", sans-serif;
+}
+
+.main-section {
+	padding: 12px 40px;
+	margin: 16px 16%;
+	border-radius: 8px;
+	border: 1px solid #d1d1d1;
+}
+
+#Introduction {
+	padding-bottom: 32px;
+}
+
+#btn-to-git {
+	padding: 0.9em 1.5em;
+}
+
+@media (max-width: 1000px) {
+	.navbar-show {
+		transform: translateX(0px);
+		width: 100%;
+	}
+
+	.head-box {
+		margin: 20px 40px;
+	}
+
+	.main-section {
+		margin: 16px;
+	}
+
+	img {
+		width: 100%;
+	}
+}
