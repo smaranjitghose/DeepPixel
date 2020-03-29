@@ -47,9 +47,9 @@ To implement Semantic segmentation on images and videos using OpenCV and deep le
 
 ### Output
 
-![Output1](https://github.com/gayathri-venu/Semantic_segmentation/blob/master/output_images/output1.png)
+![Output1](https://github.com/gayathri-venu/Semantic_segmentation/blob/master/output/output1.png)
 
-![Output2](https://github.com/gayathri-venu/Semantic_segmentation/blob/master/output_images/output2.png)
+![Output2](https://github.com/gayathri-venu/Semantic_segmentation/blob/master/output/output2.png)
 
 
 ### Reference
