@@ -20,6 +20,16 @@ The aim of this task is to transfer the style of the reference image to the cont
 5. Finally, we optimize for loss function
 
 
+### How to run the code
+
+1. If you would like to test how what the output image looks like, run the following code in the terminal:
+python style_transfer_using_Pytorch.py
+
+2. If you would like to run the code on content and style images chosen by you, run the following code in the terminal:
+python style_transfer_using_Pytorch.py --path_to_content_image 'absolute path of content image' --path_to_style_image 'absolute path of style image' --path_to_save_output_file 'absolute path of location where you would like to save the image'
+
+
+
 ### Input 
 ![Screenshot (2)](https://user-images.githubusercontent.com/43414928/77197522-57cbae80-6b0b-11ea-951e-eb8f5f1811e3.png)
 
