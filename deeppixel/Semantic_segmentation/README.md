@@ -27,7 +27,7 @@ To implement Semantic segmentation on images and videos using OpenCV and deep le
 
 5. Generate our classMap  by finding the class label index with the largest probability for each and every pixel of the output  image array
 
-6. Compute our color mask  from the COLORS  associated with each class label index in the classMap
+6. Compute our color mask  from the colors associated with each class label index in the classMap
 
 7. Resize the mask to match the input image dimensions.
 
