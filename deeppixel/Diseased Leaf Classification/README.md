@@ -34,3 +34,7 @@ Link - https://www.kaggle.com/emmarex/plantdisease
 ## Paper Implemented:
 
 https://ieeexplore.ieee.org/document/8437085
+
+## Colab Link:
+
+https://colab.research.google.com/drive/12RcUf5WAkwroP2oor_fBFd2paXlMbInf
