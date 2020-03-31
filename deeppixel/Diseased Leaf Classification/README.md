@@ -24,7 +24,12 @@ Link - https://www.kaggle.com/emmarex/plantdisease
 
 5.) As Random Forest clasifier classified with highest accuracy, we finally trained our model using Random Forest Classifier.
 
-![Input](https://drive.google.com/open?id=1xneWy66_Siv-FF_RzuOQrq7Tj6XHx82x)          ![Output](https://drive.google.com/open?id=165VBntubZitWBYhPUVYJbavtNqCmGhxT)
+### Input Image (Grape Esca leaf)<br><br>
+
+![Input](https://github.com/kritika12298/DeepPixel/blob/master/deeppixel/Diseased%20Leaf%20Classification/Input/t_1.JPG?raw=true)
+
+### Output Image <br><br>
+![Output](https://github.com/kritika12298/DeepPixel/blob/master/deeppixel/Diseased%20Leaf%20Classification/Output/GrapeEsca.png?raw=true)
 
 ## Paper Implemented:
 
