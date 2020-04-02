@@ -39,8 +39,6 @@ python ObjectDetectImage.py -i [IMAGE_PATH] -o [OUTPUT_FOLDER]
 python ObjectDetectImage.py -i asset/input/image/apple.jpeg -o asset/output/ 
 ```
 This will save the image with objects marked and labeled in the output folder path provided.
-##### Input Image 
-![Input image](https://github.com/jhalak27/DeepPixel/blob/ObjectDetect/deeppixel/Object_Detection/Object_Detection_YOLO/asset/input/image/apple.jpeg){:height="327px" width="496px"}
 
 ##### Output Image
 ![Output image](https://github.com/jhalak27/DeepPixel/blob/ObjectDetect/deeppixel/Object_Detection/Object_Detection_YOLO/asset/output/apple.png)
