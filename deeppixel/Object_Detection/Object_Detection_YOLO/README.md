@@ -6,7 +6,7 @@ To detect objects in Image, video or through real-time webcam.
 ### Algorithm & Approach:
 You Only Look Once or more popularly known as YOLO is one of the fastest real-time object detection algorithm (45 frames per seconds) as compared to R-CNN family (R-CNN, Fast R-CNN, Faster R-CNN, etc.)
 
-Link - https://pjreddie.com/darknet/yolo/
+Link: https://pjreddie.com/darknet/yolo/
 
 Here, we have used pre-trained model to detect objects in images, videos and real-time webcam.
 
@@ -23,9 +23,12 @@ git clone https://github.com/smaranjitghose/DeepPixel
 ```
 pip install -r requirements.txt 
 ```
+4) Download the pre-trained weights of YOLOV3 and move it to this directory.
+Link: https://pjreddie.com/media/files/yolov3.weights
+
 #### For Object Detection in Image
 
-4) Run the ObjectDetectImage.py file with command:
+5) Run the ObjectDetectImage.py file with command:
 
 ```
 python ObjectDetectImage.py -i [IMAGE_PATH] -o [OUTPUT_FOLDER]
@@ -41,7 +44,7 @@ This will save the image with objects marked and labeled in the output folder pa
 #### For Object Detection using Webcam
 *prerequisites:* Webcam
 
-4) Run the ObjectDetectWebcam.py file with command:
+5) Run the ObjectDetectWebcam.py file with command:
 
 ```
 python ObjectDetectWebcam.py 
@@ -54,7 +57,7 @@ This will open the webcam and label the detected objects
 
 #### For Object Detection in Video
 
-4) Run the ObjectDetectVideo.py file with command:
+5) Run the ObjectDetectVideo.py file with command:
 
 ```
 python ObjectDetectImage.py -v [VIDEO_PATH]
