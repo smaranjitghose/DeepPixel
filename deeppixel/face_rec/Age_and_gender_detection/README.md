@@ -9,7 +9,7 @@ To detect age and gender of faces in the input image given and saves labelled ou
 Link: [Gil Levi and Tal Hassner.Age and Gender Classification using Convolutional Neural Networks](https://talhassner.github.io/home/projects/cnn_agegender/CVPR2015_CNN_AgeGenderEstimation.pdf)
 
 We have done as follow:
-1. Detection faces
+1. Detection of faces
 2. Classification into Male/Female
 3. Classification into one of the age group
 
