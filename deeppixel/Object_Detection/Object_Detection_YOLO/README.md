@@ -43,7 +43,7 @@ This will save the image with objects marked and labeled in the output folder pa
 ![Input image](https://github.com/jhalak27/DeepPixel/blob/ObjectDetect/deeppixel/Object_Detection/Object_Detection_YOLO/asset/input/image/apple.jpeg)
 
 ##### Output Image
-
+![Output image](https://github.com/jhalak27/DeepPixel/blob/ObjectDetect/deeppixel/Object_Detection/Object_Detection_YOLO/asset/output/apple.png)
 
 
 #### For Object Detection using Webcam
