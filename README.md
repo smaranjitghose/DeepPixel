@@ -124,9 +124,14 @@ git push -u origin <your_branch_name>
 - [MIT Deep Learning](https://deeplearning.mit.edu/) - From self driving cars to Alpha fold..they help you dig into the latest in the field..Lex Fridman's podcasts are just 🔥🔥
 - [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) - Most popular MOOCs that is used by thousands all over the world to get started with Deep Learning
  
-## Project Admin:👲
+## Project Maintainer:👲
  
 - [Smaranjit Ghose](https://github.com/smaranjitghose)
+
+## Mentor:
+
+- [Suhrid Datta]((https://github.com/suhriddatta)
+
  
 ## Community:
     We would love to hear from you! We communicate on the following platforms:
