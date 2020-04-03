@@ -1,4 +1,4 @@
-# Deep Pixel 🐱‍💻 📷
+# deeppixel 🐱‍💻 📷
  
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/DeepPixel)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/DeepPixel)
@@ -31,32 +31,31 @@ In the process of doing so, we want the participants to:
  
 ## Guidelines to Contribute : 🤚 🏗
  
-- **Don't push** anything to the root directory. Always use specific subdirectories inside the [deeppixel](https://github.com/smaranjitghose/DeepPixel/tree/master/deeppixel) directory 
+- **Don't push** anything to the root directory of the master branch. Always use specific subdirectories inside the [deeppixel](https://github.com/smaranjitghose/DeepPixel/tree/master/deeppixel) directory 
  
 For each of the tasks:
- 
-- Experiment building this using a Jupyter notebook locally or on [Google Colab](https://colab.research.google.com/)
-- Build a script for the task inside the ```respective ``` directory
-- Inside the each directory, create two folders ```input``` and ```output``` to be used for the input and output images
+
+- Work on the task inside the ```respective ``` sub-directory __[Please name it appropiately and use [camel_case](https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841)]__
+- In the first attempt use a Jupyter notebook to perform your work
+- Once you are done give a Pull Request with the message ```Developed Jupyter Notebook for respective_task``` , breifing about your approach in the description and add a link of the above notebook in [Google Colab](https://colab.research.google.com/) __[Please sure you have given access]__
+- Once merged, build a script for the same task in the ```respective ``` directory __(If you are using Deep Learning, ensure that you have saved your trained model and its weights so that in the script you build can simply fetch it instead of training again)
 - Use [argparse](https://docs.python.org/3/library/argparse.html) library so that the input image and output path can be given as arguments in the terminal while running the script
--  Create a ```requirements.txt``` file and specify the modules used
-- Try your script/notebook with multiple images and store the results in output folder
-- Comment your script/notebook well
-- Create/Update the ReadME.MD file:
-    - Name of the task
-    - A small description
-    - Approach used
-    - Input and Output Images
-- Make sure you have the model weight or any related files like haarcascades to run the script in the same direcorty
-- Give a Pull Request
-- In your PR, please try to give a link to a Colab Notebook(if applicable) as a comment.
-- In your PR, put a reference to the issue it is for
-- once your model/script works, curate your own dataset and get the outputs..(Try 10 images) adn give a second PR about your own Dataset
-- Try out other methods to implement the above
- 
-__Please do not use a code from someone else's repo or a blog like PyImageSearch directly. You can definitely refer to others' code. But make sure you have some contributions of your own into it. If you strongly use a code from someone else,please credit them properly in the README file of the respective directory.
- 
- 
+- Update the ```requirements.txt``` file in root directory of the master branch to ensure any additional modules you have used in present there
+- Give a Pull Request with the message ```Developed Script for respective_task``` and mention how you have given the argument parameters to run the script in the description 
+- Once approved, work on documenting every block of code if not every line of your script 
+- Add a ```README.MD``` file with appropiate description __[Please ensure you properly cite any research paper or blog you have taken direct reference from]__ 
+- Give another Pull Request with a message, ```Documentation Updated``` 
+- Once merged and no other changes is required:
+ - Move on to working on a new issue
+ - Look for better methods to improve this or any other existing task
+ - Try to curate a custom dataset for your task or anyone of the task
+
+- Contribute to the Documentation of the project in terms of [ReadMe](https://github.com/smaranjitghose/DeepPixel/master/README.md), GitHub Pages inside the ```docs``` subdirectory or working on sphinx for the documentation of the package
+
+- For the completed issues, Use TensorFlow.JS for building client-side apps
+- For some of the issues, Use TensorFlow Lite along with Flutter to make mobile apps
+- Work on structuring the entire work in the form of a pacakge
+- Fix any bugs
  
 ### How to contribute:
  
@@ -108,7 +107,10 @@ git push -u origin <your_branch_name>
 - Ability to use TensorFlow 2.0/PyTorch/Keras/fast.ai (any one is suggested)
 - OpenCV(Required)
 - HTML,CSS,JavaScript(can be picked up on the go)
+- Dart and Flutter (can be picked up on the go)
 - TensorFlow.JS
+- TensorFlow Lite
+- Sphinx
  
  
 **And above all the willingness to learn and contribute!**
@@ -122,10 +124,9 @@ git push -u origin <your_branch_name>
 - [MIT Deep Learning](https://deeplearning.mit.edu/) - From self driving cars to Alpha fold..they help you dig into the latest in the field..Lex Fridman's podcasts are just 🔥🔥
 - [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) - Most popular MOOCs that is used by thousands all over the world to get started with Deep Learning
  
-## Mentors:👲
+## Project Admin:👲
  
 - [Smaranjit Ghose](https://github.com/smaranjitghose)
-- [Suhrid Datta](https://github.com/suhriddatta)
  
 ## Community:
     We would love to hear from you! We communicate on the following platforms:
