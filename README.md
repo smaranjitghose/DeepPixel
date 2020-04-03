@@ -38,7 +38,7 @@ For each of the tasks:
 
 - Work on the task inside the ```respective ``` sub-directory __[Please name it appropiately and use [camel_case](https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841)]__
 - In the first attempt 💭💭 use a [Jupyter notebook] to perform your work.  
-- Once you are done give a Pull Request🩹 with the message 📩```Developed Jupyter Notebook for respective_task``` , breifing about your approach in the description and add a link of the above notebook in [Google Colab](https://colab.research.google.com/) __[Please sure you have given access]__ ⛔
+- Once you are done give a Pull Request🩹 with the message 📩```Developed Jupyter Notebook for respective_task``` , breifing about your approach in the description and add a link of the above notebook in [Google Colab](https://colab.research.google.com/) __[Please ensure you have given access]__ ⛔
 - Once merged😎 , build a script for the same task in the ```respective ``` directory __(If you are using Deep Learning, ensure that you have saved your trained model and its weights so that in the script you build can simply fetch it instead of training again)
 - Use [argparse](https://docs.python.org/3/library/argparse.html) library so that the input image and output path can be given as arguments in the terminal while running the script
 - Update the ```requirements.txt``` file in root directory of the master branch to ensure any additional modules you have used in present there.
