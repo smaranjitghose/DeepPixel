@@ -130,7 +130,7 @@ git push -u origin <your_branch_name>
 
 ## Mentor:
 
-- [Suhrid Datta]((https://github.com/suhriddatta)
+- [Suhrid Datta](https://github.com/suhriddatta)
 
  
 ## Community:
