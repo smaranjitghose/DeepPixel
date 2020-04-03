@@ -1,3 +1,5 @@
+#import libraries
+
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import MinMaxScaler 
 from sklearn.preprocessing import LabelBinarizer 
@@ -6,10 +8,7 @@ import mahotas
 import cv2 
 import os 
 import h5py
-import numpy as np 
-import os 
-import glob 
-import cv2 
+import glob
 from matplotlib import pyplot 
 from sklearn.model_selection import train_test_split, cross_val_score 
 from sklearn.model_selection import KFold, StratifiedKFold 
