@@ -13,7 +13,8 @@
 Deep Neural networks have already surpassed human-level performance in tasks such as object recognition and detection. However, deep networks were lagging far behind in tasks like generating artistic artifacts having high perceptual quality until recent times. Creating better quality art using machine learning techniques is imperative for reaching human-like capabilities, as well as opens up a new spectrum of possibilities. And with the advancement of computer hardware as well as the proliferation of deep learning, deep learning is right now being used to create art. For example, an [AI-generated art](https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx) won’t be sold at an auction for a whopping $432,500.
  
 ### Our Vision:  🔍📃
-Create a Python package for plug in and play😎  different image processing and deep learning tasks without having to know about its working and the scary math that follows 😱.
+
+Create a Python package📦 for plug in and play😎  different image processing and deep learning tasks without having to know about its working and the scary math that follows 😱.
  
 In the process of doing so, we want the participants to:
 - Learn various concepts in Deep Learning and Computer Vision🐱‍🏍 
@@ -29,7 +30,7 @@ In the process of doing so, we want the participants to:
 - Learn to read and implement research papers 🔬
  
  
-## Guidelines to Contribute : 🤚 🏗
+## Guidelines and Suggestions to Contribute : 🤚 🏗
  
 - **Don't push** anything to the root directory of the master branch. Always use specific subdirectories inside the [deeppixel](https://github.com/smaranjitghose/DeepPixel/tree/master/deeppixel) directory 
  
@@ -37,25 +38,26 @@ For each of the tasks:
 
 - Work on the task inside the ```respective ``` sub-directory __[Please name it appropiately and use [camel_case](https://medium.com/better-programming/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841)]__
 - In the first attempt 💭💭 use a [Jupyter notebook] to perform your work.  
-- Once you are done give a Pull Request with the message ```Developed Jupyter Notebook for respective_task``` , breifing about your approach in the description and add a link of the above notebook in [Google Colab](https://colab.research.google.com/) __[Please sure you have given access]__ ⛔
+- Once you are done give a Pull Request🩹 with the message 📩```Developed Jupyter Notebook for respective_task``` , breifing about your approach in the description and add a link of the above notebook in [Google Colab](https://colab.research.google.com/) __[Please sure you have given access]__ ⛔
 - Once merged😎 , build a script for the same task in the ```respective ``` directory __(If you are using Deep Learning, ensure that you have saved your trained model and its weights so that in the script you build can simply fetch it instead of training again)
 - Use [argparse](https://docs.python.org/3/library/argparse.html) library so that the input image and output path can be given as arguments in the terminal while running the script
-- Update the ```requirements.txt``` file in root directory of the master branch to ensure any additional modules you have used in present there
+- Update the ```requirements.txt``` file in root directory of the master branch to ensure any additional modules you have used in present there.
 - Make sure you provide sample images/videos 📷 used
-- Give a Pull Request with the message ```Developed Script for respective_task``` and mention how you have given the argument parameters to run the script in the description 
+- Give a Pull Request 🩹 with the message 📩```Developed Script for respective_task``` and mention how you have given the argument parameters to run the script in the description 
 - Once approved, work on documenting every block of code if not every line of your script 
 - Add a ```README.MD``` file with appropiate description __[Please ensure you properly cite any research paper or blog you have taken direct reference from]__ 
-- Give another Pull Request with a message : ```Documentation Updated``` 
+- Give another Pull Request 🩹 with a message 📩 : ```Documentation Updated``` 
 - Once merged and no other changes is required:
  - Move on to working on a new ☀ task 
- - Look for better methods to improve this or any other existing task
- - Try to curate a custom dataset for your task or anyone of the task
+ - Look for better methods to improve 🥇 this or any other existing task
+ - Try to curate a custom dataset 🧰 for your task or anyone of the task
+- Propose a new task!
 
 - Contribute to the Documentation of the project in terms of [ReadMe](https://github.com/smaranjitghose/DeepPixel/master/README.md), GitHub Pages📟  inside the ```docs``` subdirectory or working on sphinx for the documentation of the package
 
-- For the completed issues, Use TensorFlow.JS for building client-side apps
-- For some of the issues, Use TensorFlow Lite along with Flutter to make mobile apps
-- Work on structuring the entire work in the form of a pacakge
+- For the completed issues, Use TensorFlow.JS for building client-side web apps 🌐
+- For some of the issues, Use TensorFlow Lite along with Flutter to make mobile apps 📱
+- Work on structuring the entire work in the form of a python pacakge 📦
 - Fix any bugs you find! 🐛🔨
  
 ### How to contribute:
