@@ -1,6 +1,0 @@
-opencv==4.1.2.30
-scikit-learn==0.22.2.post1
-mahotas==1.4.9
-numpy== 1.18.2
-scipy==1.4.1
-h5py==2.10.0
