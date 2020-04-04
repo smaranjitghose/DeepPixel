@@ -1,4 +1,0 @@
-opencv
-numpy 
-argparse
-imutils
