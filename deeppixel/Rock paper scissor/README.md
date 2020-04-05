@@ -20,11 +20,11 @@ I have created my own data set using python script and mixed it with the dataset
 ## Dataset Used :
 
 ### Rock 
-![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Rock%20Paper%20Scissor/Input%20used/rock.png) ![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Rock%20Paper%20Scissor/Input%20used/rock_1.png?raw=true)
+![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Rock%20paper%20scissor/Input%20used/rock.png) ![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Rock%20paper%20scissor/Input%20used/rock_1.png)
 ### Paper
-![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Rock%20Paper%20Scissor/Input%20used/paper.png) ![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Rock%20Paper%20Scissor/Input%20used/paper_1.png) 
+![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Rock%20paper%20scissor/Input%20used/paper.png) ![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Rock%20paper%20scissor/Input%20used/paper_1.png) 
 ### Scissor
-![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Rock%20Paper%20Scissor/Input%20used/scissor.png)   ![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Rock%20Paper%20Scissor/Input%20used/scissor_1.png) 
+![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Rock%20paper%20scissor/Input%20used/scissor.png)   ![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Rock%20paper%20scissor/Input%20used/scissor_1.png) 
 
 ## Dependencies:
 * tensorflow
