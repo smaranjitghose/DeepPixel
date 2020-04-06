@@ -111,9 +111,9 @@ git push -u origin <your_branch_name>
 - OpenCV(Required)
 - HTML,CSS,JavaScript(can be picked up on the go)
 - Dart and Flutter (can be picked up on the go)
-- TensorFlow.JS
-- TensorFlow Lite
-- Sphinx
+- [TensorFlow.JS](https://www.tensorflow.org/js)
+- [TensorFlow Lite](https://www.tensorflow.org/lite)
+- [Sphinx](https://www.sphinx-doc.org/en/master/)
  
  
 **And above all the willingness to learn and contribute!**
