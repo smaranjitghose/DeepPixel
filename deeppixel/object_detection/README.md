@@ -16,7 +16,7 @@ Here, we have used pre-trained model to detect objects in images, videos and rea
 git clone https://github.com/smaranjitghose/DeepPixel
 ```
 
-2) Navigate to the directory deeppixel/Object_Detection/Object_Detection_YOLO
+2) Navigate to the directory deeppixel/object_detection
 
 
 3) Install the requirements:
@@ -63,12 +63,12 @@ This will open the webcam and label the detected objects
 5) Run the ObjectDetectVideo.py file with command:
 
 ```
-python ObjectDetectImage.py -v [VIDEO_PATH]
+python ObjectDetectVideo.py -v [VIDEO_PATH]
 
 ```
 > for example
 ```
-python ObjectDetectImage.py -v asset/input/video/car_on_road.mp4
+python ObjectDetectVideo.py -v asset/input/video/car_on_road.mp4
 ```
 This will open the video and label the detected objects
 
