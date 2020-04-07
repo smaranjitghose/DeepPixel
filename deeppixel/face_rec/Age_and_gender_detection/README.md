@@ -13,6 +13,51 @@ We have done as follow:
 2. Classification into Male/Female
 3. Classification into one of the age group
 
+### Steps:
+1) Clone this repository:
+```
+git clone https://github.com/smaranjitghose/DeepPixel
+```
+
+2) Navigate to the directory deeppixel/face_rec/Age_and_gender_detection
+
+
+#### For Age And Gender Detection in Image
+
+3) Run the AgeAndGenderImage.py file with command:
+
+```
+python AgeAndGenderImage.py -i [IMAGE_PATH] -o [OUTPUT_FOLDER]
+
+```
+> for example
+```
+python AgeAndGenderImage.py -i asset/input/woman.jpeg -o asset/output/ 
+```
+This will save the image with faces marked and labeled with age and gender in the output folder path provided.
+
+
+#### For Object Detection using Webcam
+*prerequisites:* Webcam
+
+3) Run the AgeAndGenderWebcam.py  file with command:
+
+```
+python AgeAndGenderWebcam.py 
+```
+
+This will open the webcam and label the detected faces with gender and age
+
+#### For Object Detection in Video
+
+3) Run the AgeAndGenderVideo.py file with command:
+
+```
+python AgeAndGenderVideo.py -v [VIDEO_PATH]
+
+```
+
+This will open the video and label the detected faces with gender and age 
 
 ### References
 
