@@ -1,6 +1,6 @@
 ## Detection of Faces in image
 
-To detect age and gender of faces in the input image given and saves labelled output images in given folder 
+To detect age and gender of faces in the input image, video or real-time through webcam.
 
 ### Approach
 
@@ -35,6 +35,9 @@ python AgeAndGenderImage.py -i [IMAGE_PATH] -o [OUTPUT_FOLDER]
 python AgeAndGenderImage.py -i asset/input/woman.jpeg -o asset/output/ 
 ```
 This will save the image with faces marked and labeled with age and gender in the output folder path provided.
+
+##### Output Image
+![Output Image](https://github.com/jhalak27/DeepPixel/blob/AgeGender/deeppixel/face_rec/Age_and_gender_detection/asset/output/woman.png)
 
 
 #### For Object Detection using Webcam
