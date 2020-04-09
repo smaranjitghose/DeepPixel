@@ -2,7 +2,7 @@
 
 The aim of this directory is to provide a methodology for performing the task of image subset detection. We can apporach this with two ways :  1. Single Instance Detection 2. Multiple Instance Detection
 
-1. **Single Instance Detection** : In this task, we determine the position of the subset the image for a single time (single instance). For example, in the below, we have two images. Using the approach, we detected and highlighted the region where the cup (a subset) is present in the original image. 
+1. **Single Instance Detection** : In this task, we determine the position of the subset in the image for a single time (single instance). For example, in the below, we have two images. Using the approach, we detected and highlighted the region where the cup (a subset) is present in the original image. 
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Original Image**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image Subset**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Result Image**
 
@@ -20,11 +20,21 @@ The aim of this directory is to provide a methodology for performing the task of
  
 ### Approach
 
-1.Load the input image and a image patch (the subset)
+1.Load the input image and a image patch (the subset).
+
+
 2.Convert the image patch (the subset) to grayscale.
+
+
 3.To perform the task of match we use template matching function present in OpenCV function. 
-4.Determin a threshold and then the template slides over the actual image and find the location where accuracy level matches.
-5.Localize the location with higher matching probability
+
+
+4.After determining the threshold, the template slides over the actual image and find the location where accuracy level matches.
+
+
+5.Localize the area with higher matching probability.
+
+
 5.Higlight the area with highest matching probability by drawing a bounding box around it. 
  
 
