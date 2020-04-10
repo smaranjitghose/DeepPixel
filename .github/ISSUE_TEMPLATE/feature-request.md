@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
-labels: documentation, script, jupyter, dataset, rgsoc
+labels: documentation, script, jupyter, dataset, rgsoc20
 assignees: ''
 
 ---
