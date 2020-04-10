@@ -47,9 +47,7 @@ def videoAgeAndGenderDetection(video_path):
 	while cv2.waitKey(1)<0:
 		hasFrame,frame=cap.read()
 		if not hasFrame:
-			ch = cv2.waitKey(1)
-			if ch == 27 or ch == ord('q') or ch == ord('Q'):
-				break
+			break
 
 		resultImg,faceBoxes = highlightFace(face_net,frame)
 
