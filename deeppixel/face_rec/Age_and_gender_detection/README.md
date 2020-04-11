@@ -1,4 +1,4 @@
-## Detection of Faces in image
+## Age and Gender Detection of Faces
 
 To detect age and gender of faces in the input image, video or real-time through webcam.
 
@@ -40,7 +40,7 @@ This will save the image with faces marked and labeled with age and gender in th
 ![Output Image](https://github.com/jhalak27/DeepPixel/blob/AgeGender/deeppixel/face_rec/Age_and_gender_detection/asset/output/woman.png)
 
 
-#### For Object Detection using Webcam
+#### For Age And Gender Detection using Webcam
 *prerequisites:* Webcam
 
 3) Run the AgeAndGenderWebcam.py  file with command:
@@ -51,7 +51,7 @@ python AgeAndGenderWebcam.py
 
 This will open the webcam and label the detected faces with gender and age
 
-#### For Object Detection in Video
+#### For Age And Gender Detection in Video
 
 3) Run the AgeAndGenderVideo.py file with command:
 
