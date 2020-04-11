@@ -33,7 +33,7 @@ python faceAnonymizationImage.py -i asset/input/input.jpg -o asset/output/
 This will save the image with pixalated faces in the output folder path provided.
 
 ##### Output Image
-
+![Output Image](https://github.com/jhalak27/DeepPixel/blob/faceanonymization/deeppixel/face_anonymization/asset/output/input.png)
 
 
 #### For Face Anonymization using Webcam
