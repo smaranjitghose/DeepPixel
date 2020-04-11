@@ -58,10 +58,14 @@ This will open the video and pixalate the detected faces.
 
 ##### Optional flags
 No of blocks for the pixelated blurring method
+```
 -b [INT]  
+```
 
 Minimum probability to filter weak detections (confidence)
+```
 -c [FLOAT]   
+```
 
 
 ### References
