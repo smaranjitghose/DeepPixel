@@ -44,7 +44,6 @@ This will save the image with pixalated faces in the output folder path provided
 ```
 python faceAnonymizationWebcam.py 
 ```
-
 This will open the webcam and pixalate the detected faces.
 
 #### For Face Anonymization in Video
@@ -55,8 +54,15 @@ This will open the webcam and pixalate the detected faces.
 python faceAnonymizationVideo.py -v [VIDEO_PATH]
 
 ```
-
 This will open the video and pixalate the detected faces.
+
+##### Optional flags
+No of blocks for the pixelated blurring method
+-b [INT]  
+
+Minimum probability to filter weak detections (confidence)
+-c [FLOAT]   
+
 
 ### References
 
