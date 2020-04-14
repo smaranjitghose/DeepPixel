@@ -41,7 +41,7 @@ def videoAgeAndGenderDetection(video_path):
 
 	face_net, age_net, gender_net = load_caffe_models()
 
-	cap = cv2.VideoCapture(video_path)
+	cap = cv2.VideoCapture(0)
 	
 	padding=20
 	while cv2.waitKey(1)<0:
