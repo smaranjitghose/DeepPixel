@@ -64,5 +64,9 @@ For real time Instamce Segmentation , use the file ``Instance_segment_camera``. 
 ## Output
 
 ![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/instance_segmen/Instance_segment_camera/output/op1.jpg?raw=true)
+<br><br>
 
+![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/instance_segmen/Instance_segment_camera/output/OP2.jpg?raw=true)
+<br><br>
+![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/instance_segmen/Instance_segment_camera/output/OP3.jpg?raw=true)
 
