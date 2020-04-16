@@ -12,17 +12,17 @@ Instance Segmentaion have two process involved :
  ### Input Image: 
  
  ![image](
-https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Instance%20Segmentation/Input%20images/3651581213_f81963d1dd_z.jpg?raw=true
+https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/instance_segmen/Instance_segment_img/Input%20images/4410436637_7b0ca36ee7_z.jpg?raw=true
 )
 
-![iamge](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Instance%20Segmentation/Input%20images/4410436637_7b0ca36ee7_z.jpg?raw=true
+![iamge](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/instance_segmen/Instance_segment_img/Input%20images/3651581213_f81963d1dd_z.jpg?raw=true
 )
  
  ### output image :
  
- ![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Instance%20Segmentation/Output%20Images/11.png?raw=true)
+ ![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/instance_segmen/Instance_segment_img/Output%20Images/15.png?raw=true)
 
- ![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/Instance%20Segmentation/Output%20Images/15.png?raw=true
+ ![image](https://github.com/Shweta0002/DeepPixel/blob/master/deeppixel/instance_segmen/Instance_segment_img/Output%20Images/11.png?raw=true
 )
 
 
