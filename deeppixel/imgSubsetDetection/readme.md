@@ -36,6 +36,46 @@ The aim of this directory is to provide a methodology for performing the task of
 
 
 5.Higlight the area with highest matching probability by drawing a bounding box around it. 
+
+## Steps
+
+1. Clone this repository:
+```
+git clone https://github.com/smaranjitghose/DeepPixel
+```
+2. Navigate to the project directory imgSubsetDetection
+ 
+3. Install the required libraries using requirement.txt file
+ 
+4. Run **single_instance.py** file with command: 
+ 
+```
+python single_instance.py --original [ORIGINAL_IMAGE_PATH] --subset [SUBSET_IMAGE_PATH]
+```
+ > For example
+```
+python single_instance.py --original images/input/cars.jpg --subset images/input/subset_car.jpg
+
+```
+
+4. Run **multiple_instance.py** file with command: 
+ 
+```
+python multiple_instance.py --original [ORIGINAL_IMAGE_PATH] --subset [SUBSET_IMAGE_PATH]
+```
+ > For example
+```
+python multiple_instance.py --original images/input/cars.jpg --subset images/input/subset_car.jpg
+
+```
+ 
+6. After running this command, you would get the original image and the generated output image.
+ 
+### Required libraries
+1. numpy
+2. opencv
+3. argparse
+4. matplotlib
  
 
 ### Reference 
