@@ -1,7 +1,3 @@
-# USAGE
-# python motion_detector.py
-# python motion_detector.py --video videos/example_01.mp4
-
 # import the necessary packages
 from imutils.video import VideoStream
 import argparse
