@@ -74,7 +74,7 @@ while True:
 		cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
 	# show the frame and record if the user presses a key
-	cv2.imshow("Security Feed", frame)
+	cv2.imshow("Frames", frame)
 	cv2.imshow("Thresh", thresh)
 	cv2.imshow("Frame Delta", frameDelta)
 	key = cv2.waitKey(1) & 0xFF
