@@ -57,7 +57,7 @@ if status == 0:
 		(x, y, w, h) = cv2.boundingRect(c)
 		cv2.rectangle(mask, (x, y), (x + w, y + h), 255, -1)
 
-		# create two copies of the mask: one to serve as our actual
+		# create two copies of the mask: one to serve as actual
 		# minimum rectangular region and another to serve as a counter
 		# for how many pixels need to be removed to form the minimum
 		# rectangular region
@@ -91,7 +91,7 @@ if status == 0:
 	        cv2.imshow("Stitched", stitched)
 	        cv2.waitKey(0)
 
-# otherwise the stitching failed, likely due to not enough keypoints)
+# otherwise the stitching failed, likely due to not enough keypoints
 # being detected
 else:
 	        print("[INFO] image stitching failed ({})".format(status))
