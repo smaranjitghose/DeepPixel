@@ -4,7 +4,7 @@
 To extract a clear image from their low light images.
 
 ## DataSet Used:
-Flowers Recognition DaataSet is used from Kaggle which comprises 4319 images of 6 different flower species. 
+Flowers Recognition DataSet is used from Kaggle which comprises 4319 images of 6 different flower species. 
 Then the images are converted into their low light images such that the original and low light images are used
 for training.
 
@@ -19,6 +19,12 @@ Link: https://www.kaggle.com/alxmamaev/flowers-recognition
 3.) Creating the UNet Model for training using keras.
 
 4.) Saving the weights and predicting the output for test images.
+
+### Input Image
+![image](https://github.com/kritika12298/DeepPixel/blob/master/deeppixel/img_undark/inputs/low%20light%20images/pic1.png) 
+
+### Output Image
+![image](https://github.com/kritika12298/DeepPixel/blob/master/deeppixel/img_undark/outputs/pic1.png)
 
 ## Paper Implemented:
 http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1981.pdf
