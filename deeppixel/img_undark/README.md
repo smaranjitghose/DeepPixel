@@ -1,4 +1,4 @@
-# Image Denoising
+# Enhancement of Low Light Images
 
 ## Aim:
 To extract a clear image from their low light images.
