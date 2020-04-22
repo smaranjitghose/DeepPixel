@@ -11,9 +11,13 @@ for training.
 Link: https://www.kaggle.com/alxmamaev/flowers-recognition
 
 ## Approach:
+
 1.) Loading and resizing the dataset.
+
 2.) Creating image arrays.
+
 3.) Creating the UNet Model for training using keras.
+
 4.) Saving the weights and predicting the output for test images.
 
 ## Paper Implemented:
