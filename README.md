@@ -127,6 +127,12 @@ git push -u origin <your_branch_name>
 - [MIT Deep Learning](https://deeplearning.mit.edu/) - From self driving cars to Alpha fold..they help you dig into the latest in the field..Lex Fridman's podcasts are just 🔥🔥
 - [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) - Most popular MOOCs that is used by thousands all over the world to get started with Deep Learning
 
+
+# Contributors :
+
+[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/images/0)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/links/0)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/images/1)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/links/1)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/images/2)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/links/2)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/images/3)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/links/3)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/images/4)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/links/4)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/images/5)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/links/5)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/images/6)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/links/6)[![](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/images/7)](https://sourcerer.io/fame/smaranjitghose/smaranjitghose/DeepPixel/links/7)
+
+
 ## Project Maintainer:👲
 
 - [Smaranjit Ghose](https://github.com/smaranjitghose)
