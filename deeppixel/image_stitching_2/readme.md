@@ -5,12 +5,12 @@ This repository contains an implementation of multiple image stitching.
 So what is image stitching? In simple terms, for an input group of images, the output is a composite image such that it is a culmination of scenes. At the same time, the logical flow between the images must be preserved.
 
 ## Input images:
-![Input image] (https://raw.githubusercontent.com/najma510/DeepPixel/master/deeppixel/image_stitching_2/input/images/room1.jpg)
-![Input image] (https://raw.githubusercontent.com/najma510/DeepPixel/master/deeppixel/image_stitching_2/input/images/room2.jpg)
-![Input image] (https://raw.githubusercontent.com/najma510/DeepPixel/master/deeppixel/image_stitching_2/input/images/room3.jpg)
+![Input image](https://www.andreame.com/usr/uploads/2019/11/2943081345.jpg)
+![Input image](https://www.andreame.com/usr/uploads/2019/11/641571832.jpg)
+![Input image](https://www.andreame.com/usr/uploads/2019/11/3110154586.jpg)
 
 ## Output image:
-![Output image] (https://raw.githubusercontent.com/najma510/DeepPixel/master/deeppixel/image_stitching_2/output/room.jpg)
+![Output image](https://www.andreame.com/usr/uploads/2019/11/1490698569.png)
 
 ## Approach
 
