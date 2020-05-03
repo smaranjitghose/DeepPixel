@@ -48,7 +48,7 @@ python pano.py <filename.txt>
 ```
 > for example
 ```bash
-python pano.py <input/txtlists/file1.txt>
+python pano.py <txtlists/file1.txt>
 ```
 5. The stitched image (panorama) will be displayed.
 
