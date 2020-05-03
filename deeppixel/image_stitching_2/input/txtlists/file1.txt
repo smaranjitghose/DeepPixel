@@ -1,5 +1,0 @@
-../input/images/street1.jpg
-../input/images/street2.jpg
-../input/images/street3.jpg
-../input/images/street5.jpg
-../input/images/street6.jpg
