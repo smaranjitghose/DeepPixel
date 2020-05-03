@@ -1,0 +1,3 @@
+../input/images/room1.jpg
+../input/images/room2.jpg
+../input/images/room3.jpg
