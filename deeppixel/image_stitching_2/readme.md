@@ -22,7 +22,7 @@ So what is image stitching? In simple terms, for an input group of images, the o
 
 ## Project Structure:
 
-The `code` directory contains the main `pano.py` file. The `input` directory contains a `txtlists` directory which contains files having the paths to images in the panorama. These images are individually stored inside `images` directory.
+The `code` directory contains the main `pano.py` file. It also contains a `txtlists` directory which contains files having the paths to images in the panorama. These images are individually stored inside `images` directory in `input` directory.
 The `output` directory stores the stitched images.
 
 
