@@ -1,0 +1,3 @@
+../input/images/table1.jpg
+../input/images/table2.jpg
+../input/images/table3.jpg
