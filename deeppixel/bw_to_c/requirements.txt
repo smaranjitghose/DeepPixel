@@ -1,9 +1,0 @@
-tensorflow==1.15.2
-
-opencv==3.4.9
-
-matplotlib==3.1.0
-
-numpy==1.16.4
-
-argparse==1.1

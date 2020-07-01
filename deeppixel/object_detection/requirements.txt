@@ -1,7 +1,0 @@
-python==3.6.9
-
-opencv==3.2.0
-
-matplotlib==3.2.1
-
-argparse==1.1
