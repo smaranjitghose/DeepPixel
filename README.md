@@ -77,30 +77,15 @@ git push -u origin <your_branch_name>
 
 **Congratulations!** You have just made your contribution to [DeepPixel](https://github.com/smaranjitghose/DeepPixel) project.
 
-## Skills Required: 💪
 
-- Python(Mandatory)
-- Git(Mandatorty)
-- Linux Command Line(Mandatory)
-- Elementary Knowledge of Deep Learning or Computer Vision (Mandatory)
-- Ability to use TensorFlow 2.0/PyTorch/Keras/fast.ai (any one is suggested)
-- OpenCV(Required)
-- HTML,CSS,JavaScript(can be picked up on the go)
-- Dart and Flutter (can be picked up on the go)
-- [TensorFlow.JS](https://www.tensorflow.org/js)
-- [TensorFlow Lite](https://www.tensorflow.org/lite)
-- [Sphinx](https://www.sphinx-doc.org/en/master/)
+# Features we are looking to make easier: 🖊
 
-**And above all the willingness to learn and contribute!**
-
-## Resources to get started with: 🖊
-
-- [PyImageSearch](https://www.pyimagesearch.com/)-One of the best places on the Internet for anything on Computer Vision
-- [Fast.ai](https://www.fast.ai/)-Deep Learning course+Forum for any level that you will fall in love with!
-- [MIT:Intro to Deep Learning](http://introtodeeplearning.com/) - shows you more real world applications as you dive into deep learning
-- [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/index.html)
-- [MIT Deep Learning](https://deeplearning.mit.edu/) - From self driving cars to Alpha fold..they help you dig into the latest in the field..Lex Fridman's podcasts are just 🔥🔥
-- [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) - Most popular MOOCs that is used by thousands all over the world to get started with Deep Learning
+- [ ] Explainable AI [ For Convolutional Neural Networks ]
+- [ ] Edge Detection
+- [ ] Image Enhancement
+- [ ] Style Transfer
+- [ ] Image Pre-Processing
+- [ ] Image Quality Assessment
 
 
 # Contributors :
