@@ -1,33 +1,13 @@
-# deeppixel 🐱‍💻 📷
+<h1 align= "center"><b>Deep Pixel</b></h1>
+
 
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/DeepPixel)
 ![Pull Requests](https://img.shields.io/github/issues-pr/smaranjitghose/DeepPixel)
 ![Forks](https://img.shields.io/github/forks/smaranjitghose/DeepPixel)
 ![Stars](https://img.shields.io/github/stars/smaranjitghose/DeepPixel)
 [![License](https://img.shields.io/github/license/smaranjitghose/DeepPixel)](https://github.com/smaranjitghose/DeepPixel/blob/master/LICENSE)
-[![Join the chat at https://gitter.im/opendeeppixel/community](https://badges.gitter.im/opendeeppixel/community.svg)](https://gitter.im/opendeeppixel/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-### Background: 🔍
-
-Deep Neural networks have already surpassed human-level performance in tasks such as object recognition and detection. However, deep networks were lagging far behind in tasks like generating artistic artifacts having high perceptual quality until recent times. Creating better quality art using machine learning techniques is imperative for reaching human-like capabilities, as well as opens up a new spectrum of possibilities. And with the advancement of computer hardware as well as the proliferation of deep learning, deep learning is right now being used to create art. For example, an [AI-generated art](https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx) won’t be sold at an auction for a whopping \$432,500.
-
-### Our Vision: 🔍📃
-
-Create a Python package📦 for plug in and play😎 different image processing and deep learning tasks without having to know about its working and the scary math that follows 😱.
-
-In the process of doing so, we want the participants to:
-
-- Learn various concepts in Deep Learning and Computer Vision🐱‍🏍
-- Implement them in the form of scripts 👩‍💻
-- Reimplement using more optimized methods and do a comparative analysis 🕵️‍♀️
-- Create your own datasets, test your scripts on them and make it available for the community to work further 🔨
-- Build small APIs for each task (wherever applicable)
-- Build web apps for certain tasks using TensorFlow.JS or Flask
-- Build Flutter apps with TensorFlow lite for certain tasks 📲
-- Increment your personal portfolio with certain tasks you do here as standalone projects 👩‍💼
-- Work for applying the various tasks undertaken into several real world scenarios
-- Write blog posts about your contributions (Medium: @techquilla) to share with the world ✏
-- Learn to read and implement research papers 🔬
+A package for making computer vision and deep learning with images simpler!
 
 ## Guidelines and Suggestions to Contribute : 🤚 🏗
 
@@ -51,17 +31,12 @@ For each of the tasks:
 - Look for better methods to improve 🥇 this or any other existing task
 - Try to curate a custom dataset 🧰 for your task or anyone of the task
 - Propose a new task!
-
 - Contribute to the Documentation of the project in terms of [ReadMe](https://github.com/smaranjitghose/DeepPixel/master/README.md), GitHub Pages📟 inside the `docs` subdirectory or working on sphinx for the documentation of the package
 
-- For the completed issues, Use TensorFlow.JS for building client-side web apps 🌐
-- For some of the issues, Use TensorFlow Lite along with Flutter to make mobile apps 📱
 - Work on structuring the entire work in the form of a python pacakge 📦
 - Fix any bugs you find! 🐛🔨
 
 ### How to contribute:
-
-![RGSOC'20](https://img.shields.io/badge/RGSOC-20-red)
 
 **1.** Fork [this](https://github.com/smaranjitghose/DeepPixel) repository.
 
