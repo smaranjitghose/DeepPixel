@@ -85,7 +85,7 @@ git push -u origin <your_branch_name>
 - [ ] Image Enhancement
 - [ ] Style Transfer
 - [ ] Image Pre-Processing
-- [ ] Image Quality Assessment
+- [ ] Image Quality Assessment using Brisque
 
 
 # Contributors :
