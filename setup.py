@@ -1,16 +1,33 @@
-from setuptools import setup
+from setuptools import setup, find_packages
+import pathlib
 
-setup(name='deeppixel',
-      version='0.0.1',
-      description='An open source package to plug and play common computer vision and image processing tasks using deep learning under the hood',
-      long_description='An open source package to plug and play common computer vision and image processing tasks using deep learning under the hood',
-      url='https://github.com/smaranjitghose/deeppixel.git',
-      author='Smaranjit Ghose',
-      author_email='smaranjitghose@protonmail.com',
-      license='MIT',
-      packages=['deeppixel'],
-      include_package_data=True,
-      zip_safe=False,
-      install_requires=['opencv-python', 'imutils', 'scikit-image',
-                        'Pillow', 'argparse', 'tensorflow']
+HERE = pathlib.Path(__file__).parent
+
+VERSION = '0.0.1'
+PACKAGE_NAME = 'DeepPixel'
+AUTHOR = 'Smaranjit Ghose'
+AUTHOR_EMAIL = 'smaranjitghose@protonmail.com'
+URL = 'https://github.com/smaranjitghose/deepixel'
+KEYWORDS = "deep-pixel deeplearing computervision iqa explainable-ai"
+
+
+LICENSE = 'MIT License'
+DESCRIPTION = 'An open source package to plug and play common computer vision and image processing tasks using deep learning under the hood'
+LONG_DESCRIPTION = (HERE / "README.md").read_text()
+LONG_DESC_TYPE = "text/markdown"
+
+INSTALL_REQUIRES = ['opencv-python', 'imutils', 'scikit-image','Pillow', 'argparse', 'tensorflow']
+
+setup(name=PACKAGE_NAME,
+      version=VERSION,
+      description=DESCRIPTION,
+      long_description=LONG_DESCRIPTION,
+      long_description_content_type=LONG_DESC_TYPE,
+      author=AUTHOR,
+      license=LICENSE,
+      author_email=AUTHOR_EMAIL,
+      keywords=KEYWORDS,
+      url=URL,
+      install_requires=INSTALL_REQUIRES,
+      packages=find_packages()
       )
