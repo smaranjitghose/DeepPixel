@@ -1,3 +1,4 @@
+# Getting our dependencies
 import collections
 from itertools import chain
 import urllib.request as request
@@ -17,32 +18,32 @@ from libsvm import svmutil
 def normalized(kernel):
     return kernel / np.sum(kernel)
 
-#compute the locally normalized luminances via local mean subtraction and divide it by the local deviation
-def gaussian_kernel2d(n, SIGMA):       
+def gaussian_kernel2d(n, SIGMA):
+    '''
+    Compute the locally normalized luminances via local mean subtraction and divide it by the local deviation
+    '''       
     Y, X = np.indices((n, n)) - int(n/2)
     gaussian_kernel = 1 / (2 * np.pi * SIGMA ** 2) * np.exp(-(X ** 2 + Y ** 2) / (2 * SIGMA ** 2)) 
     return normalized(gaussian_kernel)
 
-#finding local mean by applying Gaussian filter to the color image
-"""
-Local Mean Field (\mu) is nothing but the Gaussian Blur of the original image,
-while Local Variance Field (\sigma) is the Gaussian Blur of the
-square of the difference of original image and u(\mu)
-"""
-def local_mean(image, kernel):         
+def local_mean(image, kernel):
+    """
+    Finding local mean by applying Gaussian filter to the color image
+    """
     return signal.convolve2d(image, kernel, 'same')
 
-#calclulating the deviation by finding the square root of observed value and the local_mean
-def local_deviation(image, local_mean, kernel):    
+def local_deviation(image, local_mean, kernel):
+    '''
+    Calclulating the deviation by finding the square root of observed value and the local_mean    
+    '''
     sigma = image ** 2
     sigma = signal.convolve2d(sigma, kernel, 'same')
     return np.sqrt(np.abs(local_mean ** 2 - sigma))
 
-#MSCN coefficients are distributed as a Generalized Gaussian Distribution (GGD) for a broader spectrum of the distorted image
-"""
-There are a few different ways to normalize an image. One such normalization is called Mean Substracted Contrast Normalization (MSCN).
-"""
-def MSCN_coefficients(image, kernel_size=6,SIGMA=7/6):   
+def MSCN_coefficients(image, kernel_size=6,SIGMA=7/6): 
+    '''
+    Normalize the image using Mean Substracted Contrast Normalization (MSCN).
+    '''  
     C = 1/255
     kernel = gaussian_kernel2d(kernel_size, SIGMA=SIGMA)
     local_mean = signal.convolve2d(image, kernel, 'same')
@@ -71,11 +72,12 @@ def calculate_pair_product_coefficients(mscn_coefficients):
         'secondary_diagonal': mscn_coefficients[1:, :-1] * mscn_coefficients[:-1, 1:]
     })
     
-"""
-we get the dimensions of the image and
-derive the center (x, y) coordinates 	
-"""
-def detect_blur_fft(image, size=60, thresh=20, vis=False):       
+
+def detect_blur_fft(image, size=60, thresh=20, vis=False):
+    """
+    we get the dimensions of the image and
+    derive the center (x, y) coordinates 	
+    """
 	(h, w) = image.shape
 	(cX, cY) = (int(w / 2.0), int(h / 2.0))
 	fft = np.fft.fft2(image)          # we compute the FFT to find the frequency transform
@@ -92,15 +94,17 @@ def detect_blur_fft(image, size=60, thresh=20, vis=False):
 	mean = np.mean(magnitude)
 	return (mean, mean <= thresh)   #mean value < thresh to signify if image is blurry or not
     
-#The methodology to fit an Asymmetric Generalized Gaussian Distribution   
-"""
-an Asymmetric Generalized Gaussian Distribution (AGGD) is fit to each of the four pairwise product images.
-AGGD is an asymmetric form of Generalized Gaussian Fitting (GGD).
-It has four parameters — shape, mean, left variance and right variance
-"""
-def asymmetric_generalized_gaussian_fit(x):  
-    #Calculate γ where Nₗ is the number of negative samples and Nᵣ is the number of positive samples.
+
+def asymmetric_generalized_gaussian_fit(x): 
+    """
+    An Asymmetric Generalized Gaussian Distribution (AGGD) is fit to each of the four pairwise product images.
+    AGGD is an asymmetric form of Generalized Gaussian Fitting (GGD).
+    It has four parameters — shape, mean, left variance and right variance
+    """
     def estimate_phi(ALP):
+        '''
+        Calculate γ where Nₗ is the number of negative samples and Nᵣ is the number of positive samples.
+        '''
         numerator = special.gamma(2 / ALP) ** 2
         denominator = special.gamma(1 / ALP) * special.gamma(3 / ALP)
         return numerator / denominator
@@ -110,8 +114,10 @@ def asymmetric_generalized_gaussian_fit(x):
         size = np.prod(x.shape)
         return (np.sum(np.abs(x)) / size) ** 2 / (np.sum(x ** 2) / size)
     
-    #Calculate R hat using γ and r hat estimations.
     def estimate_R_hat(r_hat, gamma):
+        '''
+        Calculate R hat using γ and r hat estimations.
+        '''
         num = (gamma ** 3 + 1) * (gamma + 1)
         den = (gamma ** 2 + 1) ** 2
         return r_hat * num / den
@@ -128,8 +134,10 @@ def asymmetric_generalized_gaussian_fit(x):
         right_squares = mean_squares_sum(x, lambda z: z >= 0)
         return np.sqrt(left_squares) / np.sqrt(right_squares)
     
-    #Estimate α using the approximation of the inverse generalized Gaussian ratio
     def estimate_alpha(x):
+        '''
+        Estimate α using the approximation of the inverse generalized Gaussian ratio
+        '''
         r_hat = estimate_r_hat(x)
         gamma = estimate_gamma(x)
         R_hat = estimate_R_hat(r_hat, gamma)
@@ -152,15 +160,14 @@ def asymmetric_generalized_gaussian_fit(x):
     
     constant = np.sqrt(special.gamma(1 / ALPHA) / special.gamma(3 / ALPHA))
     Mean = estimate_mean(ALPHA, Sigma_LEFT, Sigma_RIGHT)
-    return ALPHA, Mean, Sigma_LEFT, Sigma_RIGHT
-
-"""
-The features needed to calculate the image quality are the result of fitting the 
-MSCN coefficients and shifted products to the Generalized Gaussian Distributions(GGD). First, 
-we need to fit the MSCN coefficients to the GGD, then the pairwise products to the AsymmetricGGD.
-"""      
+    return ALPHA, Mean, Sigma_LEFT, Sigma_RIGHT    
 
 def calculate_brisque_features(image, kernel_size=7, sigma=7/6):
+    """
+    The features needed to calculate the image quality are the result of fitting the 
+    MSCN coefficients and shifted products to the Generalized Gaussian Distributions(GGD). First, 
+    we need to fit the MSCN coefficients to the GGD, then the pairwise products to the AsymmetricGGD.
+    """
     def calculate_features(coefficients_name, coefficients, accum=np.array([])):
         alpha, mean, sigma_l, sigma_r = asymmetric_generalized_gaussian_fit(coefficients)
 
@@ -177,26 +184,36 @@ def calculate_brisque_features(image, kernel_size=7, sigma=7/6):
     flatten_features = list(chain.from_iterable(features))
     return np.array(flatten_features)
 
-#loading the image from any url using the scikit learn package
 def imgurl(url):
+    '''
+    Loading the image from any url using the scikit learn package
+    '''
     image_stream = request.urlopen(url)
     image=io.imread(image_stream, plugin='pil')
     gray_image=skimage.color.rgb2gray(image)
     return image,gray_image
-#plotting a histogram using matplotlib
+
 def plot_histogram(x, label=""):
+    '''
+    plotting a histogram using matplotlib
+    '''
     n, bins = np.histogram(x.ravel(), bins=50)
     n = n / np.max(n)
     plt.plot(bins[:-1], n, label=label, marker='o')
     
-#loading the image from our computer using the scikit learn package  
 def imgread(path):
+    '''
+    Loading the image
+    '''
     image = io.imread(path,as_gray=False)
     gray_image = skimage.color.rgb2gray(image)
     return image,gray_image
     
-#showing the image to the user
+
 def imgshow(image,title=""): 
+    '''
+     Showing the image to the user
+    '''
     plt.axis("off")
     plt.title(title) 
     plt.imshow(image)
@@ -208,8 +225,10 @@ def image_coefficients(gray_image):
     coefficients = calculate_pair_product_coefficients(mscn_coefficients)
     return coefficients
     
-#We fit all the coefficients and show the Generalized Gaussian Distribution using a histogram
 def histogram_analysis(gray_image,x=10,y=5):
+    '''
+    Fit all the coefficients and show the Generalized Gaussian Distribution using a histogram
+    '''
     coefficients=image_coefficients(gray_image)
     plt.rcParams["figure.figsize"] = x, y
     for name, coeff in coefficients.items():
@@ -228,19 +247,20 @@ def BRISQUE_FEATURE(gray_image):
     
     return brisque_features
     
-# In order to have good results, we need to scale the features to [-1, 1]
 def scaled(features):
+    '''
+    In order to have good results, we need to scale the features to [-1, 1]
+    '''
     with open(r"deeppixel\iqa\trained.pickle", 'rb') as handle:
         scale_params = pickle.load(handle)
-    
     min_ = np.array(scale_params['min_'])
     max_ = np.array(scale_params['max_'])
-    
     return -1 + (2.0 / (max_ - min_) * (features - min_))
 
-
-# Using a pre-trained SVR model we calculate the quality assessment scores.
 def calculate_image_quality_score(brisque_features):
+    '''
+    Using a pre-trained SVR model we calculate the quality assessment scores.
+    '''
     model = svmutil.svm_load_model(r"deeppixel\iqa\brisque_svm.txt")
     scaled_brisque_features = scaled(brisque_features)
     
@@ -253,8 +273,10 @@ def calculate_image_quality_score(brisque_features):
     
     return svmutil.libsvm.svm_predict_probability(model, x, prob_estimates)
 
-# Calculating and returning the image Quality Score along the Blur Scores using Fft
 def imgscore(image,blur="False"):
+    '''
+    Calculating and returning the image Quality Score along the Blur Scores using Fft
+    '''
     gray_image = skimage.color.rgb2gray(image)
     brisque_features = BRISQUE_FEATURE(gray_image)
     score=calculate_image_quality_score(brisque_features)
@@ -264,10 +286,4 @@ def imgscore(image,blur="False"):
         blur_score,result = detect_blur_fft(gray_image)
         res = "Blurry ({:.4f})" if result else "Not Blurry ({:.4f})"
         res = res.format(blur_score)
-    return score,res
-        
-    
-    
-    
-
-    
+    return score,res       
