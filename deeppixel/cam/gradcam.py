@@ -1,6 +1,8 @@
 import torch.nn.functional as F
+import torch
+
 from .basecam import BaseCAM
-from .utlis import *
+from .utils import *
 
 
 class GradCAM(BaseCAM):
