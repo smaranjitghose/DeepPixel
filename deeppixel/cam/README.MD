@@ -14,3 +14,9 @@ CAM : http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016
 Grad-CAM : https://arxiv.org/pdf/1610.02391.pdf
 
 Grad-CAM++ : https://arxiv.org/pdf/1710.11063.pdf
+
+Smooth Grad-CAM++ : https://arxiv.org/pdf/1908.01224.pdf
+
+Score-CAM : https://arxiv.org/pdf/1910.01279.pdf
+
+SS-CAM (Smoothed Score-CAM) : https://arxiv.org/pdf/2006.14255.pdf
