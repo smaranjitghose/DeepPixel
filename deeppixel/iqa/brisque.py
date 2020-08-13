@@ -251,7 +251,7 @@ def scaled(features):
     '''
     In order to have good results, we need to scale the features to [-1, 1]
     '''
-    with open(r"deeppixel\iqa\trained.pickle", 'rb') as handle:
+    with open(os.path.join("deeppixel", "iqa", "trained.pickle"), 'rb') as handle:
         scale_params = pickle.load(handle)
     min_ = np.array(scale_params['min_'])
     max_ = np.array(scale_params['max_'])
@@ -261,7 +261,7 @@ def calculate_image_quality_score(brisque_features):
     '''
     Using a pre-trained SVR model we calculate the quality assessment scores.
     '''
-    model = svmutil.svm_load_model(r"deeppixel\iqa\brisque_svm.txt")
+    model = svmutil.svm_load_model(os.path.join("deeppixel", "iqa",  "brisque_svm.txt"))
     scaled_brisque_features = scaled(brisque_features)
     
     x, idx = svmutil.gen_svm_nodearray(

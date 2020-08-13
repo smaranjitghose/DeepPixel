@@ -37,8 +37,8 @@ def image_to_HED(path):
     Then we construct a blob from the image and pass it to the net.Then we resize the 
     output to our desired shape and 0-255 colour scale and ensure that its of uint8 type.
     '''
-    protoPath = "deeppixel\edge_detection\hed_model\deploy.prototxt"
-    modelPath = "deeppixel\edge_detection\hed_model\hed_pretrained_bsds.caffemodel"
+    protoPath = os.path.join("deeppixel", "edge_detection", "hed_model", "deploy.prototxt")
+    modelPath = os.path.join("deeppixel", "edge_detection", "hed_model", "hed_pretrained_bsds.caffemodel")
     net = cv2.dnn.readNetFromCaffe(protoPath, modelPath)
     
     image = cv2.imread(path)
