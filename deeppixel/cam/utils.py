@@ -39,13 +39,14 @@ def save_gradient_images(gradient, file_name):
         gradient (np arr): Numpy array of the gradient with shape (3, 224, 224)
         file_name (str): File name to be exported
     """
-    if not os.path.exists('../results'):
-        os.makedirs('../results')
+    RESULTS_DIR = os.path.join(os.path.pardir, "results")
+    if not os.path.exists(RESULTS_DIR):
+        os.makedirs(RESULTS_DIR)
     # Normalize
     gradient = gradient - gradient.min()
     gradient /= gradient.max()
     # Save image
-    path_to_file = os.path.join('../results', file_name + '.jpg')
+    path_to_file = os.path.join(RESULTS_DIR, file_name + '.jpg')
     save_image1(gradient, path_to_file)
 
 
@@ -56,18 +57,19 @@ def save_class_activation_images(org_img, activation_map):
         org_img (PIL img): Original image
         activation_map (numpy arr): Activation map (grayscale) 0-255
     """
-    if not os.path.exists('../results'):
-        os.makedirs('../results')
+    RESULTS_DIR = os.path.join(os.path.pardir, "results")
+    if not os.path.exists(RESULTS_DIR):
+        os.makedirs(RESULTS_DIR)
     # Grayscale activation map
     heatmap, heatmap_on_image = apply_colormap_on_image(org_img, activation_map, 'hsv')
     # Save colored heatmap
-    path_to_file = os.path.join('../results', '/_Cam_Heatmap.png')
+    path_to_file = os.path.join(RESULTS_DIR, '_Cam_Heatmap.png')
     save_image1(heatmap, path_to_file)
     # Save heatmap on iamge
-    path_to_file = os.path.join('../results', '/_Cam_On_Image.png')
+    path_to_file = os.path.join(RESULTS_DIR, '_Cam_On_Image.png')
     save_image1(heatmap_on_image, path_to_file)
     # SAve grayscale heatmap
-    path_to_file = os.path.join('../results', '/_Cam_Grayscale.png')
+    path_to_file = os.path.join(RESULTS_DIR, '_Cam_Grayscale.png')
     save_image1(activation_map, path_to_file)
 
 
