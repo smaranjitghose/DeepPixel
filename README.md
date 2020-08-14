@@ -11,13 +11,12 @@ A package for making computer vision and deep learning with images simpler!
 
 # Features we are looking to make easier: 🖊
 
-- [ ] Explainable AI [ For Convolutional Neural Networks ]
-- [ ] Edge Detection
-- [ ] Image Enhancement
-- [ ] Style Transfer
-- [ ] Image Pre-Processing
+- [ ] Explainable AI [ Class Activation Maps for Convolutional Neural Networks ]
+- [ ] Artistic Style Transfer
+- [ ] Photo Effects
 - [ ] Image Quality Assessment
-
+- [ ] Image Enhancement
+- [ ] Image Pre-Processing
 
 <h2 align="center"><b>Open Source Programs we have been a part of:</b></h2>
 <p align="center">
