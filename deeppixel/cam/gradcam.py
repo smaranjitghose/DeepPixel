@@ -55,6 +55,6 @@ class GradCAM(CAM):
             conv_layer_output[:, :, i] *= pooled_grads[i]
 
         heat_map = np.mean(conv_layer_output, axis=-1)
-        heat_map = np.maximum(heat_map, 0) / np.max(heat_map)
+        heat_map = np.maximum(heat_map, 0) / max(np.max(heat_map), 1e-10)
 
         return heat_map

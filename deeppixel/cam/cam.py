@@ -100,8 +100,12 @@ class CAM:
             return img_array
 
         else: # image array
-            # already a array or batch
-            image = keras.preprocessing.image.array_to_img(image)
+            # already a array
+            img_array = image
+            if img_array.ndim == 2:
+                img_array = np.expand_dims(img_array, axis=-1)
+
+            image = keras.preprocessing.image.array_to_img(img_array)
             return self._get_img_array(image)
 
     def _get_img_array(self, image):
@@ -124,7 +128,10 @@ class CAM:
             return img_array
 
         else: # image array
-            return image
+            img_array = image
+            if img_array.ndim == 2:
+                img_array = np.expand_dims(img_array, axis=-1)
+            return img_array
 
     def heat_map(self, input_, class_index=-1):
         """to generate hear map.
@@ -172,6 +179,25 @@ class CAM:
 
         return superimposed_imgarr
 
+    def image(self, image, class_index=-1):
+        """to get the superimposed image.
+        heat map is generated using :meth:`heat_map` with
+        :parm:`image` and :parm:`class_index`.
+
+        Args:
+            image (str, Image, array): image path or image instance or image array.
+            class_index (int, optional): class index. Defaults to -1.
+        """
+
+        input_ = self._get_input(image)
+        img_array = self._get_img_array(image)
+
+        heat_map = self.heat_map(input_, class_index)
+        superimposed_imgarr = self._superimpose(heat_map, img_array)
+
+        superimposed_img = keras.preprocessing.image.array_to_img(superimposed_imgarr)
+        return superimposed_img
+
     def save(self, image, out_path, class_index=-1):
         """to save the superimposed image to :parm:`out_path`.
         heat map is generated using :meth:`heat_map` with
@@ -183,17 +209,11 @@ class CAM:
             class_index (int, optional): class index. Defaults to -1.
         """
 
-        input_ = self._get_input(image)
-        img_array = self._get_img_array(image)
-
-        heat_map = self.heat_map(input_, class_index)
-        superimposed_imgarr = self._superimpose(heat_map, img_array)
-
-        superimposed_img = keras.preprocessing.image.array_to_img(superimposed_imgarr)
+        superimposed_img = self.image(image, class_index)
         superimposed_img.save(out_path)
 
     def show(self, image, class_index=-1):
-        """to show the superimposed image to :parm:`out_path`.
+        """to show the superimposed image.
         heat map is generated using :meth:`heat_map` with
         :parm:`image` and :parm:`class_index`.
 
@@ -202,13 +222,7 @@ class CAM:
             class_index (int, optional): class index. Defaults to -1.
         """
 
-        input_ = self._get_input(image)
-        img_array = self._get_img_array(image)
-
-        heat_map = self.heat_map(input_, class_index)
-        superimposed_imgarr = self._superimpose(heat_map, img_array)
-
-        superimposed_img = keras.preprocessing.image.array_to_img(superimposed_imgarr)
+        superimposed_img = self.image(image, class_index)
         superimposed_img.show()
 
     def plot_heatmap(self, image, class_index=-1):
