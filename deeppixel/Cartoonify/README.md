@@ -6,8 +6,8 @@ When you run Cartoonify.ipynb, both the input image and output image will be dis
 
 <h4>Original Image</h4>
 <p align="left">
-<img src="images/Readme_Output/Non_Cartoonified.PNG" width="220" height="240"/></p>
+<img src="images/Readme_Output/Non_Cartoonified.PNG" width="600" height="500"/></p>
 
 <h4>Cartoonified Image</h4>
 <p align="left">
-<img src="images/Readme_Output/Cartoonified.PNG" width="220" height="240"/></p>
+<img src="images/Readme_Output/Cartoonified.PNG" width="600" height="500"/></p>
