@@ -106,7 +106,7 @@ class CAM:
                 img_array = np.expand_dims(img_array, axis=-1)
 
             image = keras.preprocessing.image.array_to_img(img_array)
-            return self._get_img_array(image)
+            return self._get_input(image)
 
     def _get_img_array(self, image):
         """convert image to array.
@@ -133,7 +133,7 @@ class CAM:
                 img_array = np.expand_dims(img_array, axis=-1)
             return img_array
 
-    def heat_map(self, input_, class_index=-1):
+    def heat_map(self, input_, class_index=-1, **kwargs):
         """to generate hear map.
 
         Args:
@@ -141,6 +141,7 @@ class CAM:
             class_index (int, optional):
                 class index. Defaults to -1.
                 if class index is set to -1, then top predicted class is used.
+            **kwargs : other parameters.
 
         Raises:
             NotImplementedError: Every CAMs must define this.
@@ -179,7 +180,7 @@ class CAM:
 
         return superimposed_imgarr
 
-    def image(self, image, class_index=-1):
+    def image(self, image, class_index=-1, **kwargs):
         """to get the superimposed image.
         heat map is generated using :meth:`heat_map` with
         :parm:`image` and :parm:`class_index`.
@@ -187,6 +188,7 @@ class CAM:
         Args:
             image (str, Image, array): image path or image instance or image array.
             class_index (int, optional): class index. Defaults to -1.
+            **kwargs : other parameters for :meth:`heat_map`.
         """
 
         input_ = self._get_input(image)
@@ -198,7 +200,7 @@ class CAM:
         superimposed_img = keras.preprocessing.image.array_to_img(superimposed_imgarr)
         return superimposed_img
 
-    def save(self, image, out_path, class_index=-1):
+    def save(self, image, out_path, class_index=-1, **kwargs):
         """to save the superimposed image to :parm:`out_path`.
         heat map is generated using :meth:`heat_map` with
         :parm:`image` and :parm:`class_index`.
@@ -207,12 +209,13 @@ class CAM:
             image (str, Image, array): image path or image instance or image array.
             out_path (str): path of superimposed image to save.
             class_index (int, optional): class index. Defaults to -1.
+            **kwargs : other parameters for :meth:`heat_map`.
         """
 
         superimposed_img = self.image(image, class_index)
         superimposed_img.save(out_path)
 
-    def show(self, image, class_index=-1):
+    def show(self, image, class_index=-1, **kwargs):
         """to show the superimposed image.
         heat map is generated using :meth:`heat_map` with
         :parm:`image` and :parm:`class_index`.
@@ -220,18 +223,20 @@ class CAM:
         Args:
             image (str, Image, array): image path or image instance or image array.
             class_index (int, optional): class index. Defaults to -1.
+            **kwargs : other parameters for :meth:`heat_map`.
         """
 
         superimposed_img = self.image(image, class_index)
         superimposed_img.show()
 
-    def plot_heatmap(self, image, class_index=-1):
+    def plot_heatmap(self, image, class_index=-1, **kwargs):
         """to plot the heat map generated using :meth:`heat_map`
         with :parm:`image` and :parm:`class_index`
 
         Args:
             image (str, Image, array): image path or image instance or image array.
             class_index (int, optional): class index. Defaults to -1.
+            **kwargs : other parameters for :meth:`heat_map`.
         """
 
         input_ = self._get_input(image)
