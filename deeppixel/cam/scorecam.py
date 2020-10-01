@@ -15,7 +15,7 @@ class ScoreCAM(CAM):
         return f
 
     def heat_map(self, input_, class_index=-1, max_N=-1):
-        """to generate GradCAM++ heatmap for given :param:`input_` and :param:`class_index`
+        """to generate ScoreCAM heatmap for given :param:`input_` and :param:`class_index`
         with respect to :attr:`conv_layer`.
 
         Args:
