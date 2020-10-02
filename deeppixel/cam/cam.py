@@ -194,7 +194,7 @@ class CAM:
         input_ = self._get_input(image)
         img_array = self._get_img_array(image)
 
-        heat_map = self.heat_map(input_, class_index)
+        heat_map = self.heat_map(input_, class_index, **kwargs)
         superimposed_imgarr = self._superimpose(heat_map, img_array)
 
         superimposed_img = keras.preprocessing.image.array_to_img(superimposed_imgarr)
@@ -212,7 +212,7 @@ class CAM:
             **kwargs : other parameters for :meth:`heat_map`.
         """
 
-        superimposed_img = self.image(image, class_index)
+        superimposed_img = self.image(image, class_index, **kwargs)
         superimposed_img.save(out_path)
 
     def show(self, image, class_index=-1, **kwargs):
@@ -226,7 +226,7 @@ class CAM:
             **kwargs : other parameters for :meth:`heat_map`.
         """
 
-        superimposed_img = self.image(image, class_index)
+        superimposed_img = self.image(image, class_index, **kwargs)
         superimposed_img.show()
 
     def plot_heatmap(self, image, class_index=-1, **kwargs):
@@ -240,7 +240,7 @@ class CAM:
         """
 
         input_ = self._get_input(image)
-        heat_map = self.heat_map(input_, class_index)
+        heat_map = self.heat_map(input_, class_index, **kwargs)
 
         plt.matshow(heat_map)
         plt.show()
