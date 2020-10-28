@@ -1,4 +1,4 @@
-<h1 align= "center"><b>Deep Pixel</b></h1>
+<h1 align= "center">Deep Pixel</h1>
 
 
 ![Issues](https://img.shields.io/github/issues/smaranjitghose/DeepPixel)
